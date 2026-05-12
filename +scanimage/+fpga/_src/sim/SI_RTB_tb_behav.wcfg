@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SI_RTB_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SI_RTB_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1414060000000fs"></ZoomStartTime>
+      <ZoomEndTime time="2009560000001fs"></ZoomEndTime>
+      <Cursor1Time time="1690152000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="242"></NameColumnWidth>
+      <ValueColumnWidth column_width="182"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/SI_RTB_tb/periodClkPeriodExtend" type="array">
+      <obj_property name="ElementShortName">periodClkPeriodExtend[31:0]</obj_property>
+      <obj_property name="ObjectShortName">periodClkPeriodExtend[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/sampleClk125" type="logic">
+      <obj_property name="ElementShortName">sampleClk125</obj_property>
+      <obj_property name="ObjectShortName">sampleClk125</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/DIO_I" type="array">
+      <obj_property name="ElementShortName">DIO_I[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DIO_I[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/rando" type="array">
+      <obj_property name="ElementShortName">rando[12:0]</obj_property>
+      <obj_property name="ObjectShortName">rando[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/periodClockSettled" type="logic">
+      <obj_property name="ElementShortName">periodClockSettled</obj_property>
+      <obj_property name="ObjectShortName">periodClockSettled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/periodMeasCtr" type="array">
+      <obj_property name="ElementShortName">periodMeasCtr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">periodMeasCtr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/periodTrigger" type="logic">
+      <obj_property name="ElementShortName">periodTrigger</obj_property>
+      <obj_property name="ObjectShortName">periodTrigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/acqParamSimulatedResonantPeriod" type="array">
+      <obj_property name="ElementShortName">acqParamSimulatedResonantPeriod[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acqParamSimulatedResonantPeriod[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/periodClockPeriod" type="array">
+      <obj_property name="ElementShortName">periodClockPeriod[15:0]</obj_property>
+      <obj_property name="ObjectShortName">periodClockPeriod[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/periodDivider/s_axis_divisor_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_divisor_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_divisor_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/periodDivider/s_axis_dividend_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_dividend_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_dividend_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/periodDivider/s_axis_divisor_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_divisor_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_divisor_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/periodDivider/s_axis_dividend_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_dividend_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_dividend_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/divideResultReady" type="logic">
+      <obj_property name="ElementShortName">divideResultReady</obj_property>
+      <obj_property name="ObjectShortName">divideResultReady</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/divideResult" type="array">
+      <obj_property name="ElementShortName">divideResult[7:0]</obj_property>
+      <obj_property name="ObjectShortName">divideResult[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/divideRemainder" type="array">
+      <obj_property name="ElementShortName">divideRemainder[11:0]</obj_property>
+      <obj_property name="ObjectShortName">divideRemainder[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/startDivide" type="logic">
+      <obj_property name="ElementShortName">startDivide</obj_property>
+      <obj_property name="ObjectShortName">startDivide</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/timebasePulsesRemaining" type="array">
+      <obj_property name="ElementShortName">timebasePulsesRemaining[13:0]</obj_property>
+      <obj_property name="ObjectShortName">timebasePulsesRemaining[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/timebaseLongPulsesRemaining" type="array">
+      <obj_property name="ElementShortName">timebaseLongPulsesRemaining[13:0]</obj_property>
+      <obj_property name="ObjectShortName">timebaseLongPulsesRemaining[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/aeTimebaseOut" type="logic">
+      <obj_property name="ElementShortName">aeTimebaseOut</obj_property>
+      <obj_property name="ObjectShortName">aeTimebaseOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/startPulseNow" type="logic">
+      <obj_property name="ElementShortName">startPulseNow</obj_property>
+      <obj_property name="ObjectShortName">startPulseNow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/pulseCtr" type="array">
+      <obj_property name="ElementShortName">pulseCtr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pulseCtr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tp/shortPulseDuration" type="array">
+      <obj_property name="ElementShortName">shortPulseDuration[7:0]</obj_property>
+      <obj_property name="ObjectShortName">shortPulseDuration[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_RTB_tb/tbc" type="array">
+      <obj_property name="ElementShortName">tbc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tbc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

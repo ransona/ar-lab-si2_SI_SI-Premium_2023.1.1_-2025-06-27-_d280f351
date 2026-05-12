@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SI_TriggerProcess_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SI_TriggerProcess_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3286000001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="393"></NameColumnWidth>
+      <ValueColumnWidth column_width="91"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/SI_TriggerProcess_tb/periodClkPeriodExtend" type="array">
+      <obj_property name="ElementShortName">periodClkPeriodExtend[31:0]</obj_property>
+      <obj_property name="ObjectShortName">periodClkPeriodExtend[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/sampleClk120" type="logic">
+      <obj_property name="ElementShortName">sampleClk120</obj_property>
+      <obj_property name="ObjectShortName">sampleClk120</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/DIO_I" type="array">
+      <obj_property name="ElementShortName">DIO_I[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DIO_I[31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/acqParamTriggerHoldoff" type="array">
+      <obj_property name="ElementShortName">acqParamTriggerHoldoff[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acqParamTriggerHoldoff[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/acqParamPeriodTriggerChIdx" type="array">
+      <obj_property name="ElementShortName">acqParamPeriodTriggerChIdx[4:0]</obj_property>
+      <obj_property name="ObjectShortName">acqParamPeriodTriggerChIdx[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/acqParamStartTriggerChIdx" type="array">
+      <obj_property name="ElementShortName">acqParamStartTriggerChIdx[4:0]</obj_property>
+      <obj_property name="ObjectShortName">acqParamStartTriggerChIdx[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/acqParamNextTriggerChIdx" type="array">
+      <obj_property name="ElementShortName">acqParamNextTriggerChIdx[4:0]</obj_property>
+      <obj_property name="ObjectShortName">acqParamNextTriggerChIdx[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/acqParamStopTriggerChIdx" type="array">
+      <obj_property name="ElementShortName">acqParamStopTriggerChIdx[4:0]</obj_property>
+      <obj_property name="ObjectShortName">acqParamStopTriggerChIdx[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/acqParamPhotonChIdx" type="array">
+      <obj_property name="ElementShortName">acqParamPhotonChIdx[4:0]</obj_property>
+      <obj_property name="ObjectShortName">acqParamPhotonChIdx[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/acqParamPeriodTriggerDebounce" type="array">
+      <obj_property name="ElementShortName">acqParamPeriodTriggerDebounce[4:0]</obj_property>
+      <obj_property name="ObjectShortName">acqParamPeriodTriggerDebounce[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/acqParamTriggerDebounce" type="array">
+      <obj_property name="ElementShortName">acqParamTriggerDebounce[4:0]</obj_property>
+      <obj_property name="ObjectShortName">acqParamTriggerDebounce[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/acqParamPhotonPulseDebounce" type="array">
+      <obj_property name="ElementShortName">acqParamPhotonPulseDebounce[4:0]</obj_property>
+      <obj_property name="ObjectShortName">acqParamPhotonPulseDebounce[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/acqParamLiveHoldoffAdjustEnable" type="logic">
+      <obj_property name="ElementShortName">acqParamLiveHoldoffAdjustEnable</obj_property>
+      <obj_property name="ObjectShortName">acqParamLiveHoldoffAdjustEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/acqParamLiveHoldoffAdjustPeriod" type="array">
+      <obj_property name="ElementShortName">acqParamLiveHoldoffAdjustPeriod[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acqParamLiveHoldoffAdjustPeriod[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/acqStatusPeriodTriggerPeriod" type="array">
+      <obj_property name="ElementShortName">acqStatusPeriodTriggerPeriod[15:0]</obj_property>
+      <obj_property name="ObjectShortName">acqStatusPeriodTriggerPeriod[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/tp/periodTrigDebInst/sigIn" type="logic">
+      <obj_property name="ElementShortName">sigIn</obj_property>
+      <obj_property name="ObjectShortName">sigIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/tp/periodTrigDebInst/sigOut" type="logic">
+      <obj_property name="ElementShortName">sigOut</obj_property>
+      <obj_property name="ObjectShortName">sigOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/tp/periodTrigDebInst/sigOutRE" type="logic">
+      <obj_property name="ElementShortName">sigOutRE</obj_property>
+      <obj_property name="ObjectShortName">sigOutRE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/tp/periodTriggerChIdx" type="array">
+      <obj_property name="ElementShortName">periodTriggerChIdx[4:0]</obj_property>
+      <obj_property name="ObjectShortName">periodTriggerChIdx[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/tp/dataOut" type="array">
+      <obj_property name="ElementShortName">dataOut[11:0]</obj_property>
+      <obj_property name="ObjectShortName">dataOut[11:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/tp/periodTriggerHoldoffCtr" type="array">
+      <obj_property name="ElementShortName">periodTriggerHoldoffCtr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">periodTriggerHoldoffCtr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/tp/actualPeriodTriggerHoldoff" type="array">
+      <obj_property name="ElementShortName">actualPeriodTriggerHoldoff[15:0]</obj_property>
+      <obj_property name="ObjectShortName">actualPeriodTriggerHoldoff[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/tp/periodTriggerHoldoff" type="array">
+      <obj_property name="ElementShortName">periodTriggerHoldoff[15:0]</obj_property>
+      <obj_property name="ObjectShortName">periodTriggerHoldoff[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/tp/liveHoldoffAdjustEnable" type="logic">
+      <obj_property name="ElementShortName">liveHoldoffAdjustEnable</obj_property>
+      <obj_property name="ObjectShortName">liveHoldoffAdjustEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/tp/periodClockPeriod" type="array">
+      <obj_property name="ElementShortName">periodClockPeriod[15:0]</obj_property>
+      <obj_property name="ObjectShortName">periodClockPeriod[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/tp/periodMeasCtr" type="array">
+      <obj_property name="ElementShortName">periodMeasCtr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">periodMeasCtr[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/a" type="array">
+      <obj_property name="ElementShortName">a[5:0]</obj_property>
+      <obj_property name="ObjectShortName">a[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_TriggerProcess_tb/b" type="array">
+      <obj_property name="ElementShortName">b[5:0]</obj_property>
+      <obj_property name="ObjectShortName">b[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

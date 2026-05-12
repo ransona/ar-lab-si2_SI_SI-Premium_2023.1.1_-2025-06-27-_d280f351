@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>vidriotechnologies.com</spirit:vendor>
+  <spirit:library>vidrio</spirit:library>
+  <spirit:name>vDAQR1_LSADC</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:busInterfaces>
+    <spirit:busInterface>
+      <spirit:name>ADC0</spirit:name>
+      <spirit:displayName>ADC0</spirit:displayName>
+      <spirit:busType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>data</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>data_0</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>convDone</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>convDone_0</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>startConv</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>startConv_0</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>ADC1</spirit:name>
+      <spirit:displayName>ADC1</spirit:displayName>
+      <spirit:busType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>data</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>data_1</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>convDone</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>convDone_1</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>startConv</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>startConv_1</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>ADC2</spirit:name>
+      <spirit:displayName>ADC2</spirit:displayName>
+      <spirit:busType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>data</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>data_2</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>convDone</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>convDone_2</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>startConv</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>startConv_2</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>ADC3</spirit:name>
+      <spirit:displayName>ADC3</spirit:displayName>
+      <spirit:busType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>data</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>data_3</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>convDone</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>convDone_3</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>startConv</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>startConv_3</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>ADC4</spirit:name>
+      <spirit:displayName>ADC4</spirit:displayName>
+      <spirit:busType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>data</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>data_4</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>convDone</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>convDone_4</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>startConv</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>startConv_4</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>ADC5</spirit:name>
+      <spirit:displayName>ADC5</spirit:displayName>
+      <spirit:busType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>data</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>data_5</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>convDone</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>convDone_5</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>startConv</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>startConv_5</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>ADC6</spirit:name>
+      <spirit:displayName>ADC6</spirit:displayName>
+      <spirit:busType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>data</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>data_6</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>convDone</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>convDone_6</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>startConv</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>startConv_6</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>ADC7</spirit:name>
+      <spirit:displayName>ADC7</spirit:displayName>
+      <spirit:busType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>data</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>data_7</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>convDone</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>convDone_7</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>startConv</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>startConv_7</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>ADC8</spirit:name>
+      <spirit:displayName>ADC8</spirit:displayName>
+      <spirit:busType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>data</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>data_8</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>convDone</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>convDone_8</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>startConv</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>startConv_8</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>ADC9</spirit:name>
+      <spirit:displayName>ADC9</spirit:displayName>
+      <spirit:busType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>data</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>data_9</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>convDone</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>convDone_9</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>startConv</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>startConv_9</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>ADC10</spirit:name>
+      <spirit:displayName>ADC10</spirit:displayName>
+      <spirit:busType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>data</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>data_10</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>convDone</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>convDone_10</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>startConv</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>startConv_10</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>ADC11</spirit:name>
+      <spirit:displayName>ADC11</spirit:displayName>
+      <spirit:busType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="vidriotechnologies.com" spirit:library="vidrio" spirit:name="ADC_Channel_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>data</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>data_11</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>convDone</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>convDone_11</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>startConv</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>startConv_11</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>dataClk</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock_rtl" spirit:version="1.0"/>
+      <spirit:master/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>CLK</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>dataClk</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>FREQ_HZ</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.DATACLK.FREQ_HZ">66666666.666</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_BUSIF</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.DATACLK.ASSOCIATED_BUSIF">ADC0:ADC1:ADC2:ADC3:ADC4:ADC5:ADC6:ADC7:ADC8:ADC9:ADC10:ADC11</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+  </spirit:busInterfaces>
+  <spirit:model>
+    <spirit:views>
+      <spirit:view>
+        <spirit:name>xilinx_anylanguagesynthesis</spirit:name>
+        <spirit:displayName>Synthesis</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:synthesis</spirit:envIdentifier>
+        <spirit:language>Verilog</spirit:language>
+        <spirit:modelName>vDAQ_LSADC</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_anylanguagesynthesis_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>0340bc84</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_anylanguagebehavioralsimulation</spirit:name>
+        <spirit:displayName>Simulation</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:simulation</spirit:envIdentifier>
+        <spirit:language>Verilog</spirit:language>
+        <spirit:modelName>vDAQ_LSADC</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>0340bc84</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_xpgui</spirit:name>
+        <spirit:displayName>UI Layout</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:xgui.ui</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_xpgui_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>f64a5dae</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+    </spirit:views>
+    <spirit:ports>
+      <spirit:port>
+        <spirit:name>spiClkEn</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>dataClk</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>startConv_0</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>convDone_0</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_0</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>startConv_1</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>convDone_1</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_1</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>startConv_2</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>convDone_2</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_2</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>startConv_3</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>convDone_3</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_3</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>startConv_4</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>convDone_4</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_4</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>startConv_5</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>convDone_5</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_5</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>startConv_6</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>convDone_6</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_6</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>startConv_7</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>convDone_7</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_7</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>startConv_8</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>convDone_8</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_8</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>startConv_9</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>convDone_9</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_9</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>startConv_10</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>convDone_10</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_10</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>startConv_11</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>convDone_11</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>data_11</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">15</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>FW_i</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">12</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>FW_o</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">204</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+    </spirit:ports>
+  </spirit:model>
+  <spirit:fileSets>
+    <spirit:fileSet>
+      <spirit:name>xilinx_anylanguagesynthesis_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>rtl/vDAQ_LSADC.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>CHECKSUM_0340bc84</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>rtl/vDAQ_LSADC.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_xpgui_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>xgui/vDAQR1_LSADC_v1_0.tcl</spirit:name>
+        <spirit:fileType>tclSource</spirit:fileType>
+        <spirit:userFileType>CHECKSUM_f64a5dae</spirit:userFileType>
+        <spirit:userFileType>XGUI_VERSION_2</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+  </spirit:fileSets>
+  <spirit:description>vDAQR1 Low Speed ADC</spirit:description>
+  <spirit:parameters>
+    <spirit:parameter>
+      <spirit:name>Component_Name</spirit:name>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="1">vDAQR1_LSADC_v1_0</spirit:value>
+    </spirit:parameter>
+  </spirit:parameters>
+  <spirit:vendorExtensions>
+    <xilinx:coreExtensions>
+      <xilinx:supportedFamilies>
+        <xilinx:family xilinx:lifeCycle="Production">kintexu</xilinx:family>
+      </xilinx:supportedFamilies>
+      <xilinx:taxonomies>
+        <xilinx:taxonomy>/UserIP</xilinx:taxonomy>
+      </xilinx:taxonomies>
+      <xilinx:displayName>vDAQR1 Low Speed ADC</xilinx:displayName>
+      <xilinx:definitionSource>package_project</xilinx:definitionSource>
+      <xilinx:vendorDisplayName>Vidrio Technologies</xilinx:vendorDisplayName>
+      <xilinx:vendorURL>http://www.vidriotech.com</xilinx:vendorURL>
+      <xilinx:coreRevision>22</xilinx:coreRevision>
+      <xilinx:upgrades>
+        <xilinx:canUpgradeFrom>xilinx.com:user:vDAQR1_LSADC:1.0</xilinx:canUpgradeFrom>
+      </xilinx:upgrades>
+      <xilinx:coreCreationDateTime>2020-07-22T15:39:56Z</xilinx:coreCreationDateTime>
+      <xilinx:tags>
+        <xilinx:tag xilinx:name="nopcore"/>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6fc98461_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4045c366_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@247e527e_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41d1d128_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3511bd07_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b8bca81_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@51b9a359_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@8434222_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d6d7460_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3898c493_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@37b33753_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@c1d5c37_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3174d5dc_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2371f91f_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@305df718_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@cd55e0a_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a323b18_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4ecc7847_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@75cee34f_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@30513c5d_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4ba0916b_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@219c4be2_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@34b5c0c9_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@8cdf2b2_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3a6cb88a_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1050ef12_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3adaa845_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@43e9834f_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@f7e924_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6c9f422c_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e7fc381_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@22b11836_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@14d6c084_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@725834da_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e0180f2_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@20f46d80_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5e6118a_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@65f51c37_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e78fb64_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@214df176_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2c818696_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@728f5eea_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5de9c690_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@34427a6f_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@fa94409_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2235adda_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@19ab50de_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@618a9559_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b919b3a_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2bfdc0fc_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5db0369_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@784d0fb3_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@20fe60_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@155d4f7f_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7ec70f6f_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@24ffca95_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d881028_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b5771dd_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3cdb95cf_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@751a8afe_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@58c3fc7e_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@136bb6c9_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@591f6d8a_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@358dd157_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e33e553_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d1a09ad_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_LSADC</xilinx:tag>
+      </xilinx:tags>
+    </xilinx:coreExtensions>
+    <xilinx:packagingInfo>
+      <xilinx:xilinxVersion>2020.1</xilinx:xilinxVersion>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="4d964805"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="7e9a0bbb"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="846c466d"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="2396f7ce"/>
+    </xilinx:packagingInfo>
+  </spirit:vendorExtensions>
+</spirit:component>

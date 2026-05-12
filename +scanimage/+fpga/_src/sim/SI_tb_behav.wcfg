@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SI_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SI_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="45350000000fs"></ZoomStartTime>
+      <ZoomEndTime time="124250000001fs"></ZoomEndTime>
+      <Cursor1Time time="108000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="393"></NameColumnWidth>
+      <ValueColumnWidth column_width="156"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="45" />
+   <wvobject fp_name="/SI_tb/sampleClk120" type="logic">
+      <obj_property name="ElementShortName">sampleClk120</obj_property>
+      <obj_property name="ObjectShortName">sampleClk120</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/DIO_I" type="array">
+      <obj_property name="ElementShortName">DIO_I[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DIO_I[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/cfgWriteActive" type="logic">
+      <obj_property name="ElementShortName">cfgWriteActive</obj_property>
+      <obj_property name="ObjectShortName">cfgWriteActive</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/cfgWriteAddr" type="array">
+      <obj_property name="ElementShortName">cfgWriteAddr[16:0]</obj_property>
+      <obj_property name="ObjectShortName">cfgWriteAddr[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/cfgWriteData" type="array">
+      <obj_property name="ElementShortName">cfgWriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cfgWriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/msadc_ch1Data" type="array">
+      <obj_property name="ElementShortName">msadc_ch1Data[13:0]</obj_property>
+      <obj_property name="ObjectShortName">msadc_ch1Data[13:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/msadc_ch2Data" type="array">
+      <obj_property name="ElementShortName">msadc_ch2Data[13:0]</obj_property>
+      <obj_property name="ObjectShortName">msadc_ch2Data[13:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/msadc_ch3Data" type="array">
+      <obj_property name="ElementShortName">msadc_ch3Data[13:0]</obj_property>
+      <obj_property name="ObjectShortName">msadc_ch3Data[13:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/msadc_ch4Data" type="array">
+      <obj_property name="ElementShortName">msadc_ch4Data[13:0]</obj_property>
+      <obj_property name="ObjectShortName">msadc_ch4Data[13:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/triggerProcess/dataOut" type="array">
+      <obj_property name="ElementShortName">dataOut[11:0]</obj_property>
+      <obj_property name="ObjectShortName">dataOut[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/triggerProcess/periodClockPeriod" type="array">
+      <obj_property name="ElementShortName">periodClockPeriod[15:0]</obj_property>
+      <obj_property name="ObjectShortName">periodClockPeriod[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/stateMchine/startOfLine" type="logic">
+      <obj_property name="ElementShortName">startOfLine</obj_property>
+      <obj_property name="ObjectShortName">startOfLine</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/stateMchine/endOfLine" type="logic">
+      <obj_property name="ElementShortName">endOfLine</obj_property>
+      <obj_property name="ObjectShortName">endOfLine</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/stateMchine/acqClock" type="logic">
+      <obj_property name="ElementShortName">acqClock</obj_property>
+      <obj_property name="ObjectShortName">acqClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/stateMchine/lineClock" type="logic">
+      <obj_property name="ElementShortName">lineClock</obj_property>
+      <obj_property name="ObjectShortName">lineClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/stateMchine/beamClock" type="logic">
+      <obj_property name="ElementShortName">beamClock</obj_property>
+      <obj_property name="ObjectShortName">beamClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/stateMchine/roiClock" type="logic">
+      <obj_property name="ElementShortName">roiClock</obj_property>
+      <obj_property name="ObjectShortName">roiClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/stateMchine/sliceClock" type="logic">
+      <obj_property name="ElementShortName">sliceClock</obj_property>
+      <obj_property name="ObjectShortName">sliceClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/stateMchine/volumeClock" type="logic">
+      <obj_property name="ElementShortName">volumeClock</obj_property>
+      <obj_property name="ObjectShortName">volumeClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleAccum/accumStart" type="logic">
+      <obj_property name="ElementShortName">accumStart</obj_property>
+      <obj_property name="ObjectShortName">accumStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleAccum/accumEnd" type="logic">
+      <obj_property name="ElementShortName">accumEnd</obj_property>
+      <obj_property name="ObjectShortName">accumEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleAccum/pixelClock" type="logic">
+      <obj_property name="ElementShortName">pixelClock</obj_property>
+      <obj_property name="ObjectShortName">pixelClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleAccum/currBinSize" type="array">
+      <obj_property name="ElementShortName">currBinSize[9:0]</obj_property>
+      <obj_property name="ObjectShortName">currBinSize[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleAccum/currBinReadPtr" type="array">
+      <obj_property name="ElementShortName">currBinReadPtr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">currBinReadPtr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleAccum/\gen_ch_accum[0].chSample " type="array">
+      <obj_property name="ElementShortName">\gen_ch_accum[0].chSample [15:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_ch_accum[0].chSample [15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleAccum/\gen_ch_accum[0].chAccum " type="array">
+      <obj_property name="ElementShortName">\gen_ch_accum[0].chAccum [25:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_ch_accum[0].chAccum [25:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleAccum/\gen_ch_accum[1].chSample " type="array">
+      <obj_property name="ElementShortName">\gen_ch_accum[1].chSample [15:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_ch_accum[1].chSample [15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleAccum/\gen_ch_accum[1].chAccum " type="array">
+      <obj_property name="ElementShortName">\gen_ch_accum[1].chAccum [25:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_ch_accum[1].chAccum [25:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleAccum/divisor" type="array">
+      <obj_property name="ElementShortName">divisor[9:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleAccum/accumDone" type="logic">
+      <obj_property name="ElementShortName">accumDone</obj_property>
+      <obj_property name="ObjectShortName">accumDone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleDivide/\gen_ch_accum[0].divideValid " type="logic">
+      <obj_property name="ElementShortName">\gen_ch_accum[0].divideValid </obj_property>
+      <obj_property name="ObjectShortName">\gen_ch_accum[0].divideValid </obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleDivide/\gen_ch_accum[0].chPixelVal " type="array">
+      <obj_property name="ElementShortName">\gen_ch_accum[0].chPixelVal [15:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_ch_accum[0].chPixelVal [15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleDivide/accumEndOfLine" type="logic">
+      <obj_property name="ElementShortName">accumEndOfLine</obj_property>
+      <obj_property name="ObjectShortName">accumEndOfLine</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleDivide/endOfLine" type="logic">
+      <obj_property name="ElementShortName">endOfLine</obj_property>
+      <obj_property name="ObjectShortName">endOfLine</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleDivide/gen_ch_accum[0].divider/s_axis_divisor_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_divisor_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_divisor_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleDivide/gen_ch_accum[0].divider/s_axis_dividend_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_dividend_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_dividend_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleDivide/gen_ch_accum[0].divider/m_axis_dout_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_dout_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_dout_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/lineTag/fifoWriteEn" type="logic">
+      <obj_property name="ElementShortName">fifoWriteEn</obj_property>
+      <obj_property name="ObjectShortName">fifoWriteEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/lineTag/fifoData" type="array">
+      <obj_property name="ElementShortName">fifoData[63:0]</obj_property>
+      <obj_property name="ObjectShortName">fifoData[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/lineTag/pixelValid" type="logic">
+      <obj_property name="ElementShortName">pixelValid</obj_property>
+      <obj_property name="ObjectShortName">pixelValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/lineTag/pixelDataIn" type="array">
+      <obj_property name="ElementShortName">pixelDataIn[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pixelDataIn[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/sampleDivide/outputPixelData" type="array">
+      <obj_property name="ElementShortName">outputPixelData[63:0]</obj_property>
+      <obj_property name="ObjectShortName">outputPixelData[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/hSI/lineTag/writeLineTag" type="array">
+      <obj_property name="ElementShortName">writeLineTag[1:0]</obj_property>
+      <obj_property name="ObjectShortName">writeLineTag[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_tb/dataFifoWrCount" type="array">
+      <obj_property name="ElementShortName">dataFifoWrCount[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataFifoWrCount[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,71 @@
+
+# Timing exceptions for static params
+
+set_false_path -from [get_cells acqPlanNumSteps_reg[*]*]
+set_false_path -from [get_cells acqParamMaskSize_reg[*]*]
+set_false_path -from [get_cells acqParam*TriggerChIdx_reg[*]*]
+set_false_path -from [get_cells acqParam*TriggerInvert_reg*]
+set_false_path -from [get_cells acqParamPhotonChIdx_reg[*]*]
+set_false_path -from [get_cells acqParamTriggerDebounce_reg[*]*]
+set_false_path -from [get_cells acqParamPhotonPulseDebounce_reg[*]*]
+set_false_path -from [get_cells acqParamLiveHoldoffAdjustEnable_reg*]
+set_false_path -from [get_cells acqParamLiveHoldoffAdjustPeriod_reg[*]*]
+set_false_path -from [get_cells acqParamChannelsInvert_reg[*]*]
+set_false_path -from [get_cells acqParamChannelOffsets_reg[*]*]
+set_false_path -from [get_cells acqParamSamplesPerLine_reg[*]*]
+set_false_path -from [get_cells acqParamVolumesPerAcq_reg[*]*]
+set_false_path -from [get_cells acqParamTotalAcqs_reg[*]*]
+set_false_path -from [get_cells acqParamBeamClockAdvance_reg[*]*]
+set_false_path -from [get_cells acqParamBeamClockDuration_reg[*]*]
+set_false_path -from [get_cells acqParamDummyVal_reg[*]*]
+set_false_path -from [get_cells acqParamDisableDivide_reg[*]*]
+set_false_path -from [get_cells acqParamEnableBidi_reg*]
+set_false_path -from [get_cells acqParamMaskBits_reg*]
+set_false_path -from [get_cells acqParamAuxTrig*TriggerChIdx_reg[*]*]
+set_false_path -from [get_cells acqParamAuxTriggerDebounce_reg[*]*]
+set_false_path -from [get_cells acqParamAuxTriggerEnable_reg*]
+set_false_path -from [get_cells acqParamAuxTriggerInvert_reg[*]*]
+set_false_path -from [get_cells acqParamPeriodTriggerMaxPeriod_reg[*]*]
+set_false_path -from [get_cells acqParamPeriodTriggerMinPeriod_reg[*]*]
+set_false_path -from [get_cells acqParamPeriodTriggerSettledThresh_reg[*]*]
+set_false_path -from [get_cells acqParamSimulatedResonantPeriod_reg[*]*]
+set_false_path -from [get_cells acqParamLinearMode_reg*]
+set_false_path -from [get_cells acqParamLinearFramesPerVolume_reg[*]*]
+set_false_path -from [get_cells acqParamLinearFrameClkHighTime_reg[*]*]
+set_false_path -from [get_cells acqParamLinearFrameClkLowTime_reg[*]*]
+set_false_path -from [get_cells acqParamUniformSampling_reg*]
+set_false_path -from [get_cells acqParamUniformBinSize_reg[*]*]
+set_false_path -from [get_cells acqParamUniformBinCoefficient_reg[*]*]
+set_false_path -from [get_cells acqParamLaserClkChIdx_reg[*]*]
+set_false_path -from [get_cells acqParamLaserClkSyncChIdx_reg[*]*]
+set_false_path -from [get_cells acqParamLaserClkDebounce_reg[*]*]
+set_false_path -from [get_cells sampleAccum/firstRowBinSizes_reg[*]*]
+set_false_path -from [get_cells sampleAccum/firstRowCoefficients_reg[*]*]
+set_false_path -from [get_cells acqParamSampleClkPulsesPerPeriod_reg[*]*]
+set_false_path -from [get_cells acqParamLinearSampleClkPulseDuration_reg[*]*]
+set_false_path -from [get_cells acqParamEnableLineTag_reg*]
+set_false_path -from [get_cells acqParamPeriodTriggerSettledGate_reg*]
+set_false_path -from [get_cells acqParamEnableMixedLasergating_reg*]
+
+set_false_path -from [get_cells gen_logical_channel_settings[*].acqParamLogicalChannelSettings_R_reg[*]*]
+set_false_path -from [get_cells gen_logical_channel_settings[*].acqParamLaserTriggerFilterWindowStart_R_reg[*]*]
+set_false_path -from [get_cells gen_logical_channel_settings[*].acqParamLaserTriggerFilterWindowN_R_reg[*]*]
+
+set_false_path -from [get_cells acqParamAnalogResonantPhaseDetection_reg*]
+set_false_path -from [get_cells acqParamAnalogResonantPhaseThreshold_reg[*]*]
+
+set_false_path -from [get_cells i2cEnable_reg*]
+set_false_path -from [get_cells i2cParamDebounce_reg[*]*]
+set_false_path -from [get_cells i2cParamAddress_reg[*]*]
+set_false_path -from [get_cells i2cParamSdaChIdx_reg[*]*]
+set_false_path -from [get_cells i2cParamSclChIdx_reg[*]*]
+
+
+set cfgClk [get_clocks -of_objects [get_cells acqParamAuxTriggerEnable_reg]]
+
+set_false_path -from [get_cells triggerProcess/periodClkSettledReg_reg[*]*] -to $cfgClk
+set_false_path -from [get_cells dataFifoOverflowCount_reg[*]*] -to $cfgClk
+set_false_path -from [get_cells triggerFifoOverflowCount_reg[*]*] -to $cfgClk
+
+set_false_path -from [get_cells acqParamDataFifoWriteWidth1_reg[*]*]
+set_false_path -from [get_cells acqParamDataFifoWriteWidth2_reg[*]*]

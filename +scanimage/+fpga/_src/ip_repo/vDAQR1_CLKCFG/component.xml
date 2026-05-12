@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>vidriotechnologies.com</spirit:vendor>
+  <spirit:library>vidrio</spirit:library>
+  <spirit:name>vDAQR1_CLKCFG</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:busInterfaces>
+    <spirit:busInterface>
+      <spirit:name>SAXIL_CFG</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="aximm" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="aximm_rtl" spirit:version="1.0"/>
+      <spirit:slave>
+        <spirit:memoryMapRef spirit:memoryMapRef="SAXIL_CFG"/>
+      </spirit:slave>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWADDR</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_AWADDR</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWPROT</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_AWPROT</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_AWVALID</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_AWREADY</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WDATA</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_WDATA</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WSTRB</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_WSTRB</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_WVALID</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_WREADY</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BRESP</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_BRESP</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_BVALID</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_BREADY</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARADDR</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_ARADDR</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARPROT</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_ARPROT</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_ARVALID</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_ARREADY</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RDATA</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_RDATA</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RRESP</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_RRESP</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_RVALID</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>SAXIL_CFG_RREADY</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>clk40</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>CLK</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>clk40</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_BUSIF</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.CLK40.ASSOCIATED_BUSIF">SAXIL_CFG</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_RESET</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.CLK40.ASSOCIATED_RESET">axiResetN</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>FREQ_HZ</spirit:name>
+          <spirit:description>40000000</spirit:description>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.CLK40.FREQ_HZ"/>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>axiResetN</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>axiResetN</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>POLARITY</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.AXIRESETN.POLARITY" spirit:choiceRef="choice_list_9d8b0d81">ACTIVE_LOW</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+  </spirit:busInterfaces>
+  <spirit:memoryMaps>
+    <spirit:memoryMap>
+      <spirit:name>SAXIL_CFG</spirit:name>
+      <spirit:addressBlock>
+        <spirit:name>reg0</spirit:name>
+        <spirit:baseAddress spirit:format="bitString" spirit:resolve="user" spirit:bitStringLength="32">0</spirit:baseAddress>
+        <spirit:range spirit:format="long" spirit:resolve="dependent" spirit:dependency="pow(2,(SAXIL_CFG_ADDR_WIDTH - 1) + 1)" spirit:minimum="4096" spirit:rangeType="long">4096</spirit:range>
+        <spirit:width spirit:format="long" spirit:resolve="dependent" spirit:dependency="(SAXIL_CFG_DATA_WIDTH - 1) + 1">32</spirit:width>
+        <spirit:usage>register</spirit:usage>
+      </spirit:addressBlock>
+    </spirit:memoryMap>
+  </spirit:memoryMaps>
+  <spirit:model>
+    <spirit:views>
+      <spirit:view>
+        <spirit:name>xilinx_anylanguagesynthesis</spirit:name>
+        <spirit:displayName>Synthesis</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:synthesis</spirit:envIdentifier>
+        <spirit:language>Verilog</spirit:language>
+        <spirit:modelName>vDAQ_CLKCFG_IO</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_anylanguagesynthesis_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>947ac17d</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_anylanguagebehavioralsimulation</spirit:name>
+        <spirit:displayName>Simulation</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:simulation</spirit:envIdentifier>
+        <spirit:language>Verilog</spirit:language>
+        <spirit:modelName>vDAQ_CLKCFG_IO</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>9b83939c</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_xpgui</spirit:name>
+        <spirit:displayName>UI Layout</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:xgui.ui</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_xpgui_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>9cb1d350</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_implementation</spirit:name>
+        <spirit:displayName>Implementation</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:implementation</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_implementation_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>e2e80d76</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+    </spirit:views>
+    <spirit:ports>
+      <spirit:port>
+        <spirit:name>FW_i</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">5</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>FW_o</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>clk40</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>axiResetN</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_AWADDR</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.SAXIL_CFG_ADDR_WIDTH&apos;)) - 1)">7</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_AWPROT</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">2</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_AWVALID</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_AWREADY</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_WDATA</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.SAXIL_CFG_DATA_WIDTH&apos;)) - 1)">31</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_WSTRB</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.SAXIL_CFG_DATA_WIDTH&apos;)) / 8) - 1)">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">1</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_WVALID</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_WREADY</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_BRESP</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_BVALID</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_BREADY</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_ARADDR</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.SAXIL_CFG_ADDR_WIDTH&apos;)) - 1)">7</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_ARPROT</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">2</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_ARVALID</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_ARREADY</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_RDATA</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.SAXIL_CFG_DATA_WIDTH&apos;)) - 1)">31</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_RRESP</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_RVALID</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>SAXIL_CFG_RREADY</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>wire</spirit:typeName>
+              <spirit:viewNameRef>xilinx_anylanguagesynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_anylanguagebehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+    </spirit:ports>
+    <spirit:modelParameters>
+      <spirit:modelParameter xsi:type="spirit:nameValueTypeType" spirit:dataType="integer">
+        <spirit:name>SAXIL_CFG_DATA_WIDTH</spirit:name>
+        <spirit:displayName>Saxil Cfg Data Width</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.SAXIL_CFG_DATA_WIDTH">32</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>SAXIL_CFG_ADDR_WIDTH</spirit:name>
+        <spirit:displayName>Saxil Cfg Addr Width</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.SAXIL_CFG_ADDR_WIDTH">8</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>INVSTAT</spirit:name>
+        <spirit:displayName>Invstat</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.INVSTAT">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>SSYNC</spirit:name>
+        <spirit:displayName>Ssync</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.SSYNC">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>ALCEN</spirit:name>
+        <spirit:displayName>Alcen</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.ALCEN">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>ALCMON</spirit:name>
+        <spirit:displayName>Alcmon</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.ALCMON">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>ALCCAL</spirit:name>
+        <spirit:displayName>Alccal</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.ALCCAL">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>ALCULOK</spirit:name>
+        <spirit:displayName>Alculok</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.ALCULOK">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>AUTOCAL</spirit:name>
+        <spirit:displayName>Autocal</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.AUTOCAL">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>BST</spirit:name>
+        <spirit:displayName>Bst</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.BST">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>FILT</spirit:name>
+        <spirit:displayName>Filt</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.FILT">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>LKCT</spirit:name>
+        <spirit:displayName>Lkct</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.LKCT">3</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>CPMID</spirit:name>
+        <spirit:displayName>Cpmid</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.CPMID">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>CPWIDE</spirit:name>
+        <spirit:displayName>Cpwide</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.CPWIDE">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>CPRST</spirit:name>
+        <spirit:displayName>Cprst</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.CPRST">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>CPUP</spirit:name>
+        <spirit:displayName>Cpup</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.CPUP">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>CPDN</spirit:name>
+        <spirit:displayName>Cpdn</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.CPDN">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>CP</spirit:name>
+        <spirit:displayName>Cp</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.CP">7</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>RAO</spirit:name>
+        <spirit:displayName>Rao</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.RAO">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>BD</spirit:name>
+        <spirit:displayName>Bd</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.BD">10</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>LKWIN</spirit:name>
+        <spirit:displayName>Lkwin</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.LKWIN">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>RD</spirit:name>
+        <spirit:displayName>Rd</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.RD">2</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>ND</spirit:name>
+        <spirit:displayName>Nd</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.ND">80</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>PD</spirit:name>
+        <spirit:displayName>Pd</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.PD">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>MUTE0</spirit:name>
+        <spirit:displayName>Mute0</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.MUTE0">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>SYNCEN0</spirit:name>
+        <spirit:displayName>Syncen0</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.SYNCEN0">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>OINV0</spirit:name>
+        <spirit:displayName>Oinv0</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.OINV0">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>MC0</spirit:name>
+        <spirit:displayName>Mc0</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.MC0">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>MD0</spirit:name>
+        <spirit:displayName>Md0</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.MD0">5</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>DLY0</spirit:name>
+        <spirit:displayName>Dly0</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DLY0">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>MUTE1</spirit:name>
+        <spirit:displayName>Mute1</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.MUTE1">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>SYNCEN1</spirit:name>
+        <spirit:displayName>Syncen1</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.SYNCEN1">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>OINV1</spirit:name>
+        <spirit:displayName>Oinv1</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.OINV1">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>MC1</spirit:name>
+        <spirit:displayName>Mc1</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.MC1">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>MD1</spirit:name>
+        <spirit:displayName>Md1</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.MD1">5</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>DLY1</spirit:name>
+        <spirit:displayName>Dly1</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DLY1">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>MUTE2</spirit:name>
+        <spirit:displayName>Mute2</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.MUTE2">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>SYNCEN2</spirit:name>
+        <spirit:displayName>Syncen2</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.SYNCEN2">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>OINV2</spirit:name>
+        <spirit:displayName>Oinv2</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.OINV2">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>MC2</spirit:name>
+        <spirit:displayName>Mc2</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.MC2">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>MD2</spirit:name>
+        <spirit:displayName>Md2</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.MD2">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>DLY2</spirit:name>
+        <spirit:displayName>Dly2</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DLY2">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>MUTE3</spirit:name>
+        <spirit:displayName>Mute3</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.MUTE3">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>SYNCEN3</spirit:name>
+        <spirit:displayName>Syncen3</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.SYNCEN3">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>OINV3</spirit:name>
+        <spirit:displayName>Oinv3</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.OINV3">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>MC3</spirit:name>
+        <spirit:displayName>Mc3</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.MC3">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>MD3</spirit:name>
+        <spirit:displayName>Md3</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.MD3">5</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>DLY3</spirit:name>
+        <spirit:displayName>Dly3</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DLY3">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>MUTE4</spirit:name>
+        <spirit:displayName>Mute4</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.MUTE4">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>SYNCEN4</spirit:name>
+        <spirit:displayName>Syncen4</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.SYNCEN4">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>OINV4</spirit:name>
+        <spirit:displayName>Oinv4</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.OINV4">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>MC4</spirit:name>
+        <spirit:displayName>Mc4</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.MC4">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>MD4</spirit:name>
+        <spirit:displayName>Md4</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.MD4">5</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>DLY4</spirit:name>
+        <spirit:displayName>Dly4</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DLY4">0</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>AUTO_APPLY_CFG_ON_RESET</spirit:name>
+        <spirit:displayName>Auto Apply Cfg On Reset</spirit:displayName>
+        <spirit:value spirit:format="bool" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.AUTO_APPLY_CFG_ON_RESET">true</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>PDALL</spirit:name>
+        <spirit:displayName>Pdall</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.PDALL">0</spirit:value>
+      </spirit:modelParameter>
+    </spirit:modelParameters>
+  </spirit:model>
+  <spirit:choices>
+    <spirit:choice>
+      <spirit:name>choice_list_9d8b0d81</spirit:name>
+      <spirit:enumeration>ACTIVE_HIGH</spirit:enumeration>
+      <spirit:enumeration>ACTIVE_LOW</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_pairs_4112e98f</spirit:name>
+      <spirit:enumeration spirit:text="Enabled">0</spirit:enumeration>
+      <spirit:enumeration spirit:text="Full Power Down">1</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_pairs_534ff1f0</spirit:name>
+      <spirit:enumeration spirit:text="M = 1">0</spirit:enumeration>
+      <spirit:enumeration spirit:text="M = 2">1</spirit:enumeration>
+      <spirit:enumeration spirit:text="M = 4">2</spirit:enumeration>
+      <spirit:enumeration spirit:text="M = 8">3</spirit:enumeration>
+      <spirit:enumeration spirit:text="M = 12">4</spirit:enumeration>
+      <spirit:enumeration spirit:text="M = 16">5</spirit:enumeration>
+      <spirit:enumeration spirit:text="M = 24">6</spirit:enumeration>
+      <spirit:enumeration spirit:text="M = 32">7</spirit:enumeration>
+      <spirit:enumeration spirit:text="M = 48">8</spirit:enumeration>
+      <spirit:enumeration spirit:text="M = 64">9</spirit:enumeration>
+      <spirit:enumeration spirit:text="M = 96">10</spirit:enumeration>
+      <spirit:enumeration spirit:text="M = 128">11</spirit:enumeration>
+      <spirit:enumeration spirit:text="M = 192">12</spirit:enumeration>
+      <spirit:enumeration spirit:text="M = 256">13</spirit:enumeration>
+      <spirit:enumeration spirit:text="M = 384">14</spirit:enumeration>
+      <spirit:enumeration spirit:text="M = 512">15</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_pairs_910e9a11</spirit:name>
+      <spirit:enumeration spirit:text="Enabled">0</spirit:enumeration>
+      <spirit:enumeration spirit:text="Muted">1</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_pairs_d2b4919d</spirit:name>
+      <spirit:enumeration spirit:text="P=4">4</spirit:enumeration>
+      <spirit:enumeration spirit:text="P=3">2</spirit:enumeration>
+      <spirit:enumeration spirit:text="P=2.5">1</spirit:enumeration>
+      <spirit:enumeration spirit:text="P=3.5">3</spirit:enumeration>
+      <spirit:enumeration spirit:text="P=2">0</spirit:enumeration>
+    </spirit:choice>
+  </spirit:choices>
+  <spirit:fileSets>
+    <spirit:fileSet>
+      <spirit:name>xilinx_anylanguagesynthesis_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>xdc/vDAQ_CLKCFG_ooc.xdc</spirit:name>
+        <spirit:userFileType>xdc</spirit:userFileType>
+        <spirit:userFileType>USED_IN_out_of_context</spirit:userFileType>
+        <spirit:define>
+          <spirit:name>processing_order</spirit:name>
+          <spirit:value>early</spirit:value>
+        </spirit:define>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>rtl/SAXIL.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>rtl/vDAQ_CLKCFG.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>rtl/vDAQ_CLKCFG_IO.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>CHECKSUM_a4cf91cf</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_anylanguagebehavioralsimulation_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>rtl/SAXIL.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>rtl/vDAQ_CLKCFG.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>rtl/vDAQ_CLKCFG_IO.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_xpgui_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>xgui/vDAQR1_CLKCFG_v1_0.tcl</spirit:name>
+        <spirit:fileType>tclSource</spirit:fileType>
+        <spirit:userFileType>CHECKSUM_f1a9b8e0</spirit:userFileType>
+        <spirit:userFileType>XGUI_VERSION_2</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_implementation_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>xdc/vDAQ_CLKCFG.xdc</spirit:name>
+        <spirit:userFileType>xdc</spirit:userFileType>
+        <spirit:userFileType>SCOPED_TO_REF_vDAQ_CLKCFG</spirit:userFileType>
+        <spirit:userFileType>USED_IN_opt_design_post</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+  </spirit:fileSets>
+  <spirit:description>vDAQR1 Clock Configuration</spirit:description>
+  <spirit:parameters>
+    <spirit:parameter>
+      <spirit:name>Component_Name</spirit:name>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="1">vDAQR1_CLK_CFG_v1_0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>SAXIL_CFG_DATA_WIDTH</spirit:name>
+      <spirit:displayName>Saxil Cfg Data Width</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SAXIL_CFG_DATA_WIDTH">32</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>SAXIL_CFG_ADDR_WIDTH</spirit:name>
+      <spirit:displayName>Saxil Cfg Addr Width</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SAXIL_CFG_ADDR_WIDTH">8</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>INVSTAT</spirit:name>
+      <spirit:displayName>Invstat</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.INVSTAT">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>SSYNC</spirit:name>
+      <spirit:displayName>Ssync</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SSYNC">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>ALCEN</spirit:name>
+      <spirit:displayName>Alcen</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ALCEN">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>ALCMON</spirit:name>
+      <spirit:displayName>Alcmon</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ALCMON">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>ALCCAL</spirit:name>
+      <spirit:displayName>Alccal</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ALCCAL">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>ALCULOK</spirit:name>
+      <spirit:displayName>Alculok</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ALCULOK">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>AUTOCAL</spirit:name>
+      <spirit:displayName>Autocal</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.AUTOCAL">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>BST</spirit:name>
+      <spirit:displayName>Bst</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BST">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>FILT</spirit:name>
+      <spirit:displayName>Filt</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.FILT">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>LKCT</spirit:name>
+      <spirit:displayName>Lkct</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.LKCT">3</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>CPMID</spirit:name>
+      <spirit:displayName>Cpmid</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.CPMID">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>CPWIDE</spirit:name>
+      <spirit:displayName>Cpwide</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.CPWIDE">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>CPRST</spirit:name>
+      <spirit:displayName>Cprst</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.CPRST">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>CPUP</spirit:name>
+      <spirit:displayName>Cpup</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.CPUP">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>CPDN</spirit:name>
+      <spirit:displayName>Cpdn</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.CPDN">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>CP</spirit:name>
+      <spirit:displayName>Cp</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.CP">7</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>RAO</spirit:name>
+      <spirit:displayName>Reference Aligned Output Mode (RAO)</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.RAO" spirit:minimum="0" spirit:maximum="1" spirit:rangeType="long">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>BD</spirit:name>
+      <spirit:displayName>B Divide Value</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BD" spirit:minimum="0" spirit:maximum="11" spirit:rangeType="long">10</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>LKWIN</spirit:name>
+      <spirit:displayName>Lkwin</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.LKWIN">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>RD</spirit:name>
+      <spirit:displayName>R Divider</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.RD" spirit:minimum="1" spirit:maximum="63" spirit:rangeType="long">2</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>ND</spirit:name>
+      <spirit:displayName>N Divider</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.ND" spirit:minimum="32" spirit:maximum="1023" spirit:rangeType="long">80</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>PD</spirit:name>
+      <spirit:displayName>P Divider</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.PD" spirit:choiceRef="choice_pairs_d2b4919d">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>MUTE0</spirit:name>
+      <spirit:displayName>Mute</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MUTE0" spirit:choiceRef="choice_pairs_910e9a11">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>SYNCEN0</spirit:name>
+      <spirit:displayName>Syncen0</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SYNCEN0">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>OINV0</spirit:name>
+      <spirit:displayName>Oinv0</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.OINV0">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>MC0</spirit:name>
+      <spirit:displayName>Mc0</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MC0">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>MD0</spirit:name>
+      <spirit:displayName>Divider</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MD0" spirit:choiceRef="choice_pairs_534ff1f0">5</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>DLY0</spirit:name>
+      <spirit:displayName>Delay</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.DLY0" spirit:minimum="0" spirit:maximum="255" spirit:rangeType="long">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>MUTE1</spirit:name>
+      <spirit:displayName>Mute</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MUTE1" spirit:choiceRef="choice_pairs_910e9a11">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>SYNCEN1</spirit:name>
+      <spirit:displayName>Syncen1</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SYNCEN1">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>OINV1</spirit:name>
+      <spirit:displayName>Oinv1</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.OINV1">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>MC1</spirit:name>
+      <spirit:displayName>Mc1</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MC1">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>MD1</spirit:name>
+      <spirit:displayName>Divider</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MD1" spirit:choiceRef="choice_pairs_534ff1f0">5</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>DLY1</spirit:name>
+      <spirit:displayName>Delay</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.DLY1" spirit:minimum="0" spirit:maximum="255" spirit:rangeType="long">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>MUTE2</spirit:name>
+      <spirit:displayName>Mute</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MUTE2" spirit:choiceRef="choice_pairs_910e9a11">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>SYNCEN2</spirit:name>
+      <spirit:displayName>Syncen2</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SYNCEN2">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>OINV2</spirit:name>
+      <spirit:displayName>Oinv2</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.OINV2">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>MC2</spirit:name>
+      <spirit:displayName>Mc2</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MC2">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>MD2</spirit:name>
+      <spirit:displayName>Divider</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MD2" spirit:choiceRef="choice_pairs_534ff1f0">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>DLY2</spirit:name>
+      <spirit:displayName>Delay</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.DLY2" spirit:minimum="0" spirit:maximum="255" spirit:rangeType="long">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>MUTE3</spirit:name>
+      <spirit:displayName>Mute</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MUTE3" spirit:choiceRef="choice_pairs_910e9a11">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>SYNCEN3</spirit:name>
+      <spirit:displayName>Syncen3</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SYNCEN3">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>OINV3</spirit:name>
+      <spirit:displayName>Oinv3</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.OINV3">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>MC3</spirit:name>
+      <spirit:displayName>Mc3</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MC3">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>MD3</spirit:name>
+      <spirit:displayName>Divider</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MD3" spirit:choiceRef="choice_pairs_534ff1f0">5</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>DLY3</spirit:name>
+      <spirit:displayName>Delay</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.DLY3" spirit:minimum="0" spirit:maximum="255" spirit:rangeType="long">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>MUTE4</spirit:name>
+      <spirit:displayName>Mute</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MUTE4" spirit:choiceRef="choice_pairs_910e9a11">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>SYNCEN4</spirit:name>
+      <spirit:displayName>Syncen4</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SYNCEN4">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>OINV4</spirit:name>
+      <spirit:displayName>Oinv4</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.OINV4">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>MC4</spirit:name>
+      <spirit:displayName>Mc4</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MC4">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>MD4</spirit:name>
+      <spirit:displayName>Divider</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.MD4" spirit:choiceRef="choice_pairs_534ff1f0">5</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>DLY4</spirit:name>
+      <spirit:displayName>Delay</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.DLY4" spirit:minimum="0" spirit:maximum="255" spirit:rangeType="long">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>AUTO_APPLY_CFG_ON_RESET</spirit:name>
+      <spirit:displayName>Automatically write configuration to device after a reset</spirit:displayName>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.AUTO_APPLY_CFG_ON_RESET">true</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>PDALL</spirit:name>
+      <spirit:displayName>Chip Power State</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.PDALL" spirit:choiceRef="choice_pairs_4112e98f">0</spirit:value>
+    </spirit:parameter>
+  </spirit:parameters>
+  <spirit:vendorExtensions>
+    <xilinx:coreExtensions>
+      <xilinx:supportedFamilies>
+        <xilinx:family xilinx:lifeCycle="Beta">kintexu</xilinx:family>
+      </xilinx:supportedFamilies>
+      <xilinx:taxonomies>
+        <xilinx:taxonomy>/UserIP</xilinx:taxonomy>
+      </xilinx:taxonomies>
+      <xilinx:displayName>vDAQR1 Clock Configuration</xilinx:displayName>
+      <xilinx:definitionSource>package_project</xilinx:definitionSource>
+      <xilinx:vendorDisplayName>Vidrio Technologies</xilinx:vendorDisplayName>
+      <xilinx:vendorURL>http://www.vidriotechnologies.com</xilinx:vendorURL>
+      <xilinx:coreRevision>21</xilinx:coreRevision>
+      <xilinx:upgrades>
+        <xilinx:canUpgradeFrom>vidriotechnologies.com:vidrio:vDAQR1_CLK_CFG:1.0</xilinx:canUpgradeFrom>
+      </xilinx:upgrades>
+      <xilinx:coreCreationDateTime>2020-08-05T23:21:22Z</xilinx:coreCreationDateTime>
+      <xilinx:tags>
+        <xilinx:tag xilinx:name="nopcore"/>
+        <xilinx:tag xilinx:name="vidriotechnologies.com:vidrio:vDAQR1_CLKCFG:1.0_ARCHIVE_LOCATION">j:/Vidrio/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@38cd3983_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@72df737b_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@17a8afe9_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2714afbd_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4df4eda3_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@e692be6_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@286c607b_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@22ec94aa_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@716239eb_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3c7fea13_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7af0efe0_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d60c0ec_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3206a991_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@341509bd_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74606610_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@18f136f2_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@62402ebb_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1586e153_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@544278d5_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@e62c36d_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@75d5f820_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7436b7ab_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1ea3357e_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@97a0c10_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4645fb00_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6632f8f0_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@470d3eac_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7607dee0_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@31e5d842_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@46d74226_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@48932583_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@56a15e17_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3dff1666_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@350c38d3_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2f9d8201_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@39a22b9e_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@158b4866_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@19757a04_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a34bbd4_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f8427eb_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@13b6e4c_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7200415e_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a18eee6_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@23463a39_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2be65ab8_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@701a5d42_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5cd4c206_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5d1c6a93_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@47c066c_ARCHIVE_LOCATION">c:/repo/scanimage/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f3a1594_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@238ef293_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@33ef63c7_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3575bd25_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@71d82ab9_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@dda13cd_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5de4fb5b_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6cc2234f_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5dc9dcf_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@f21ddf5_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@405b3d3c_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e72fd93_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42cb5743_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@38bb8290_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6e9545b2_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2c836999_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f1d828e_ARCHIVE_LOCATION">c:/repo/vdaq/R1/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6c2541a6_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@20f000b8_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e68c8ec_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2bd4c63d_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@187ead18_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@69714c0d_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ae92879_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@73f6106a_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@716c6a1f_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@37e13f6c_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@13e3818f_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2121a5ea_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4771be1f_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e32c1_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@655be5b0_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3c40b59c_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7082cbdf_ARCHIVE_LOCATION">c:/repo/scanimageHsadc/+scanimage/+fpga/_src/ip_repo/vDAQR1_CLKCFG</xilinx:tag>
+      </xilinx:tags>
+    </xilinx:coreExtensions>
+    <xilinx:packagingInfo>
+      <xilinx:xilinxVersion>2020.1</xilinx:xilinxVersion>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="e5f746dc"/>
+      <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="1bca7cf2"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="528af17b"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="7cc6eb24"/>
+      <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="3e3147b9"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="2f9d42ae"/>
+    </xilinx:packagingInfo>
+  </spirit:vendorExtensions>
+</spirit:component>

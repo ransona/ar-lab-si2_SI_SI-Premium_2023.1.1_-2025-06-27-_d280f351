@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SamplePhase_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SamplePhase_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="224400001fs"></ZoomEndTime>
+      <Cursor1Time time="85200000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="339"></NameColumnWidth>
+      <ValueColumnWidth column_width="210"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="37" />
+   <wvobject fp_name="/SamplePhase_tb/hsClk" type="logic">
+      <obj_property name="ElementShortName">hsClk</obj_property>
+      <obj_property name="ObjectShortName">hsClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/hsSyncTrigPhaseShift" type="array">
+      <obj_property name="ElementShortName">hsSyncTrigPhaseShift[11:0]</obj_property>
+      <obj_property name="ObjectShortName">hsSyncTrigPhaseShift[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/hsSyncTrigger" type="array">
+      <obj_property name="ElementShortName">hsSyncTrigger[15:0]</obj_property>
+      <obj_property name="ObjectShortName">hsSyncTrigger[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/hsSyncTrigIgnorePhysical" type="logic">
+      <obj_property name="ElementShortName">hsSyncTrigIgnorePhysical</obj_property>
+      <obj_property name="ObjectShortName">hsSyncTrigIgnorePhysical</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/hsadcSampleDataA" type="array">
+      <obj_property name="ElementShortName">hsadcSampleDataA[383:0]</obj_property>
+      <obj_property name="ObjectShortName">hsadcSampleDataA[383:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/hsadcSampleDataB" type="array">
+      <obj_property name="ElementShortName">hsadcSampleDataB[383:0]</obj_property>
+      <obj_property name="ObjectShortName">hsadcSampleDataB[383:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/chASamps" type="array">
+      <obj_property name="ElementShortName">chASamps[31:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">chASamps[31:0][11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/chBSamps" type="array">
+      <obj_property name="ElementShortName">chBSamps[31:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">chBSamps[31:0][11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/samplePhase" type="array">
+      <obj_property name="ElementShortName">samplePhase[31:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">samplePhase[31:0][11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[31]" type="array">
+         <obj_property name="ElementShortName">[31][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[30]" type="array">
+         <obj_property name="ElementShortName">[30][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[29]" type="array">
+         <obj_property name="ElementShortName">[29][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[28]" type="array">
+         <obj_property name="ElementShortName">[28][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[27]" type="array">
+         <obj_property name="ElementShortName">[27][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[26]" type="array">
+         <obj_property name="ElementShortName">[26][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[25]" type="array">
+         <obj_property name="ElementShortName">[25][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[24]" type="array">
+         <obj_property name="ElementShortName">[24][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[23]" type="array">
+         <obj_property name="ElementShortName">[23][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[22]" type="array">
+         <obj_property name="ElementShortName">[22][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[21]" type="array">
+         <obj_property name="ElementShortName">[21][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[20]" type="array">
+         <obj_property name="ElementShortName">[20][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[19]" type="array">
+         <obj_property name="ElementShortName">[19][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[18]" type="array">
+         <obj_property name="ElementShortName">[18][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[17]" type="array">
+         <obj_property name="ElementShortName">[17][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[16]" type="array">
+         <obj_property name="ElementShortName">[16][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[15]" type="array">
+         <obj_property name="ElementShortName">[15][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[14]" type="array">
+         <obj_property name="ElementShortName">[14][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[13]" type="array">
+         <obj_property name="ElementShortName">[13][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[12]" type="array">
+         <obj_property name="ElementShortName">[12][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[11]" type="array">
+         <obj_property name="ElementShortName">[11][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[10]" type="array">
+         <obj_property name="ElementShortName">[10][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[9]" type="array">
+         <obj_property name="ElementShortName">[9][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[8]" type="array">
+         <obj_property name="ElementShortName">[8][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[7]" type="array">
+         <obj_property name="ElementShortName">[7][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[6]" type="array">
+         <obj_property name="ElementShortName">[6][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[5]" type="array">
+         <obj_property name="ElementShortName">[5][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[4]" type="array">
+         <obj_property name="ElementShortName">[4][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[3]" type="array">
+         <obj_property name="ElementShortName">[3][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[2]" type="array">
+         <obj_property name="ElementShortName">[2][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[1]" type="array">
+         <obj_property name="ElementShortName">[1][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/samplePhase[0]" type="array">
+         <obj_property name="ElementShortName">[0][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/samplePhase32" type="array">
+      <obj_property name="ElementShortName">samplePhase32[11:0]</obj_property>
+      <obj_property name="ObjectShortName">samplePhase32[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/lastSamplePhase32" type="array">
+      <obj_property name="ElementShortName">lastSamplePhase32[11:0]</obj_property>
+      <obj_property name="ObjectShortName">lastSamplePhase32[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/samplePhasePacked" type="array">
+      <obj_property name="ElementShortName">samplePhasePacked[383:0]</obj_property>
+      <obj_property name="ObjectShortName">samplePhasePacked[383:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/samplePhaseWithinBounds" type="logic">
+      <obj_property name="ElementShortName">samplePhaseWithinBounds</obj_property>
+      <obj_property name="ObjectShortName">samplePhaseWithinBounds</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/lastTickWas32Difference" type="logic">
+      <obj_property name="ElementShortName">lastTickWas32Difference</obj_property>
+      <obj_property name="ObjectShortName">lastTickWas32Difference</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/acqParamLogicalChannelSettings" type="array">
+      <obj_property name="ElementShortName">acqParamLogicalChannelSettings[63:0]</obj_property>
+      <obj_property name="ObjectShortName">acqParamLogicalChannelSettings[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/acqParamLaserTriggerFilterWindowStart" type="array">
+      <obj_property name="ElementShortName">acqParamLaserTriggerFilterWindowStart[23:0]</obj_property>
+      <obj_property name="ObjectShortName">acqParamLaserTriggerFilterWindowStart[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/acqParamLaserTriggerFilterWindowN" type="array">
+      <obj_property name="ElementShortName">acqParamLaserTriggerFilterWindowN[23:0]</obj_property>
+      <obj_property name="ObjectShortName">acqParamLaserTriggerFilterWindowN[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/logChans" type="array">
+      <obj_property name="ElementShortName">logChans[31:0]</obj_property>
+      <obj_property name="ObjectShortName">logChans[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/logicalChanDecode" type="array">
+      <obj_property name="ElementShortName">logicalChanDecode[1:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">logicalChanDecode[1:0][15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/SamplePhase_tb/logicalChanDecode[1]" type="array">
+         <obj_property name="ElementShortName">[1][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SamplePhase_tb/logicalChanDecode[0]" type="array">
+         <obj_property name="ElementShortName">[0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/dvo" type="logic">
+      <obj_property name="ElementShortName">dvo</obj_property>
+      <obj_property name="ObjectShortName">dvo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/lastTrigPhs" type="array">
+      <obj_property name="ElementShortName">lastTrigPhs[12:0]</obj_property>
+      <obj_property name="ObjectShortName">lastTrigPhs[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/trigPhs" type="array">
+      <obj_property name="ElementShortName">trigPhs[12:0]</obj_property>
+      <obj_property name="ObjectShortName">trigPhs[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/ctr" type="array">
+      <obj_property name="ElementShortName">ctr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ctr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/\gen_logical_channel_settings[0].acqParamLogicalChannelSettings_R " type="array">
+      <obj_property name="ElementShortName">\gen_logical_channel_settings[0].acqParamLogicalChannelSettings_R [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_channel_settings[0].acqParamLogicalChannelSettings_R [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/\gen_logical_channel_settings[0].acqParamLaserTriggerFilterWindowStart_R " type="array">
+      <obj_property name="ElementShortName">\gen_logical_channel_settings[0].acqParamLaserTriggerFilterWindowStart_R [11:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_channel_settings[0].acqParamLaserTriggerFilterWindowStart_R [11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/\gen_logical_channel_settings[0].acqParamLaserTriggerFilterWindowN_R " type="array">
+      <obj_property name="ElementShortName">\gen_logical_channel_settings[0].acqParamLaserTriggerFilterWindowN_R [11:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_channel_settings[0].acqParamLaserTriggerFilterWindowN_R [11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/\gen_logical_channel_settings[1].acqParamLogicalChannelSettings_R " type="array">
+      <obj_property name="ElementShortName">\gen_logical_channel_settings[1].acqParamLogicalChannelSettings_R [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_channel_settings[1].acqParamLogicalChannelSettings_R [31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/\gen_logical_channel_settings[1].acqParamLaserTriggerFilterWindowStart_R " type="array">
+      <obj_property name="ElementShortName">\gen_logical_channel_settings[1].acqParamLaserTriggerFilterWindowStart_R [11:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_channel_settings[1].acqParamLaserTriggerFilterWindowStart_R [11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/\gen_logical_channel_settings[1].acqParamLaserTriggerFilterWindowN_R " type="array">
+      <obj_property name="ElementShortName">\gen_logical_channel_settings[1].acqParamLaserTriggerFilterWindowN_R [11:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_channel_settings[1].acqParamLaserTriggerFilterWindowN_R [11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/testCtr" type="array">
+      <obj_property name="ElementShortName">testCtr[14:0]</obj_property>
+      <obj_property name="ObjectShortName">testCtr[14:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/val_i" type="array">
+      <obj_property name="ElementShortName">val_i[5:0]</obj_property>
+      <obj_property name="ObjectShortName">val_i[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/SAMPLE_PHASE_BITS" type="array">
+      <obj_property name="ElementShortName">SAMPLE_PHASE_BITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SAMPLE_PHASE_BITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/HS_NUM_LOGICAL_CHANNELS" type="array">
+      <obj_property name="ElementShortName">HS_NUM_LOGICAL_CHANNELS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HS_NUM_LOGICAL_CHANNELS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/signalConditionH/\gen_logical_chan[0].wndoStart_i " type="array">
+      <obj_property name="ElementShortName">\gen_logical_chan[0].wndoStart_i [4:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_chan[0].wndoStart_i [4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/signalConditionH/\gen_logical_chan[0].wndoEnd_i " type="array">
+      <obj_property name="ElementShortName">\gen_logical_chan[0].wndoEnd_i [4:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_chan[0].wndoEnd_i [4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/signalConditionH/\gen_logical_chan[1].wndoStart_i " type="array">
+      <obj_property name="ElementShortName">\gen_logical_chan[1].wndoStart_i [4:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_chan[1].wndoStart_i [4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SamplePhase_tb/signalConditionH/\gen_logical_chan[1].wndoEnd_i " type="array">
+      <obj_property name="ElementShortName">\gen_logical_chan[1].wndoEnd_i [4:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_chan[1].wndoEnd_i [4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

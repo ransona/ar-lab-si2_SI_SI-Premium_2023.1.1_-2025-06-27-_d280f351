@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="vDAQ_HSADC_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="vDAQ_HSADC_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="459800001fs"></ZoomEndTime>
+      <Cursor1Time time="128000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="516"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/ACLK" type="logic">
+      <obj_property name="ElementShortName">ACLK</obj_property>
+      <obj_property name="ObjectShortName">ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/ARESETN" type="logic">
+      <obj_property name="ElementShortName">ARESETN</obj_property>
+      <obj_property name="ObjectShortName">ARESETN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/SAXIL_ARADDR" type="array">
+      <obj_property name="ElementShortName">SAXIL_ARADDR[12:0]</obj_property>
+      <obj_property name="ObjectShortName">SAXIL_ARADDR[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/SAXIL_ARVALID" type="logic">
+      <obj_property name="ElementShortName">SAXIL_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">SAXIL_ARVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/SAXIL_ARREADY" type="logic">
+      <obj_property name="ElementShortName">SAXIL_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">SAXIL_ARREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/SAXIL_RDATA" type="array">
+      <obj_property name="ElementShortName">SAXIL_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SAXIL_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/SAXIL_RVALID" type="logic">
+      <obj_property name="ElementShortName">SAXIL_RVALID</obj_property>
+      <obj_property name="ObjectShortName">SAXIL_RVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/SAXIL_RREADY" type="logic">
+      <obj_property name="ElementShortName">SAXIL_RREADY</obj_property>
+      <obj_property name="ObjectShortName">SAXIL_RREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/readAddress" type="array">
+      <obj_property name="ElementShortName">readAddress[12:0]</obj_property>
+      <obj_property name="ObjectShortName">readAddress[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/readData" type="array">
+      <obj_property name="ElementShortName">readData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/readAddress2" type="array">
+      <obj_property name="ElementShortName">readAddress2[12:0]</obj_property>
+      <obj_property name="ObjectShortName">readAddress2[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/readData2" type="array">
+      <obj_property name="ElementShortName">readData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/MAXIL1_ARADDR" type="array">
+      <obj_property name="ElementShortName">MAXIL1_ARADDR[12:0]</obj_property>
+      <obj_property name="ObjectShortName">MAXIL1_ARADDR[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/MAXIL1_ARVALID" type="logic">
+      <obj_property name="ElementShortName">MAXIL1_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">MAXIL1_ARVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/MAXIL1_ARREADY" type="logic">
+      <obj_property name="ElementShortName">MAXIL1_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">MAXIL1_ARREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/MAXIL1_RDATA" type="array">
+      <obj_property name="ElementShortName">MAXIL1_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAXIL1_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/MAXIL1_RVALID" type="logic">
+      <obj_property name="ElementShortName">MAXIL1_RVALID</obj_property>
+      <obj_property name="ObjectShortName">MAXIL1_RVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/MAXIL1_RREADY" type="logic">
+      <obj_property name="ElementShortName">MAXIL1_RREADY</obj_property>
+      <obj_property name="ObjectShortName">MAXIL1_RREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/MAXIL2_ARADDR" type="array">
+      <obj_property name="ElementShortName">MAXIL2_ARADDR[12:0]</obj_property>
+      <obj_property name="ObjectShortName">MAXIL2_ARADDR[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/MAXIL2_ARVALID" type="logic">
+      <obj_property name="ElementShortName">MAXIL2_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">MAXIL2_ARVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/MAXIL2_ARREADY" type="logic">
+      <obj_property name="ElementShortName">MAXIL2_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">MAXIL2_ARREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/MAXIL2_RDATA" type="array">
+      <obj_property name="ElementShortName">MAXIL2_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAXIL2_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/MAXIL2_RVALID" type="logic">
+      <obj_property name="ElementShortName">MAXIL2_RVALID</obj_property>
+      <obj_property name="ObjectShortName">MAXIL2_RVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/MAXIL2_RREADY" type="logic">
+      <obj_property name="ElementShortName">MAXIL2_RREADY</obj_property>
+      <obj_property name="ObjectShortName">MAXIL2_RREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/rtl1_r_active" type="logic">
+      <obj_property name="ElementShortName">rtl1_r_active</obj_property>
+      <obj_property name="ObjectShortName">rtl1_r_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/rtl2_r_active" type="logic">
+      <obj_property name="ElementShortName">rtl2_r_active</obj_property>
+      <obj_property name="ObjectShortName">rtl2_r_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/axi1_r_active" type="logic">
+      <obj_property name="ElementShortName">axi1_r_active</obj_property>
+      <obj_property name="ObjectShortName">axi1_r_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_tb/hsadc/SAXIL_CFG_Inst/axi2_r_active" type="logic">
+      <obj_property name="ElementShortName">axi2_r_active</obj_property>
+      <obj_property name="ObjectShortName">axi2_r_active</obj_property>
+   </wvobject>
+</wave_config>

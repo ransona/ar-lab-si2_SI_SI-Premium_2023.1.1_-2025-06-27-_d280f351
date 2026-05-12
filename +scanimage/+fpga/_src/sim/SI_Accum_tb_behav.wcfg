@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SI_Accum_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SI_Accum_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10598333fs"></ZoomStartTime>
+      <ZoomEndTime time="10816534fs"></ZoomEndTime>
+      <Cursor1Time time="10756533fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="346"></NameColumnWidth>
+      <ValueColumnWidth column_width="234"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/SI_Accum_tb/sampleClk125" type="logic">
+      <obj_property name="ElementShortName">sampleClk125</obj_property>
+      <obj_property name="ObjectShortName">sampleClk125</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/cfgClk200" type="logic">
+      <obj_property name="ElementShortName">cfgClk200</obj_property>
+      <obj_property name="ObjectShortName">cfgClk200</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/startOfLine" type="logic">
+      <obj_property name="ElementShortName">startOfLine</obj_property>
+      <obj_property name="ObjectShortName">startOfLine</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/endOfLine" type="logic">
+      <obj_property name="ElementShortName">endOfLine</obj_property>
+      <obj_property name="ObjectShortName">endOfLine</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/acquireSample" type="logic">
+      <obj_property name="ElementShortName">acquireSample</obj_property>
+      <obj_property name="ObjectShortName">acquireSample</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/resetSm" type="logic">
+      <obj_property name="ElementShortName">resetSm</obj_property>
+      <obj_property name="ObjectShortName">resetSm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/sampleAccum/accumEnd" type="logic">
+      <obj_property name="ElementShortName">accumEnd</obj_property>
+      <obj_property name="ObjectShortName">accumEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/sampleAccum/outputValid" type="logic">
+      <obj_property name="ElementShortName">outputValid</obj_property>
+      <obj_property name="ObjectShortName">outputValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/simulationState" type="array">
+      <obj_property name="ElementShortName">simulationState[2:0]</obj_property>
+      <obj_property name="ObjectShortName">simulationState[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group136" type="group">
+      <obj_property name="label">Writing</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/SI_Accum_tb/cfgMaskWriteEnable" type="logic">
+         <obj_property name="ElementShortName">cfgMaskWriteEnable</obj_property>
+         <obj_property name="ObjectShortName">cfgMaskWriteEnable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_Accum_tb/cfgMaskAddr" type="array">
+         <obj_property name="ElementShortName">cfgMaskAddr[11:0]</obj_property>
+         <obj_property name="ObjectShortName">cfgMaskAddr[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_Accum_tb/cfgMaskBin" type="array">
+         <obj_property name="ElementShortName">cfgMaskBin[11:0]</obj_property>
+         <obj_property name="ObjectShortName">cfgMaskBin[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_Accum_tb/cfgMaskDivisor" type="array">
+         <obj_property name="ElementShortName">cfgMaskDivisor[25:0]</obj_property>
+         <obj_property name="ObjectShortName">cfgMaskDivisor[25:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_Accum_tb/cfgMaskWriteData" type="array">
+         <obj_property name="ElementShortName">cfgMaskWriteData[37:0]</obj_property>
+         <obj_property name="ObjectShortName">cfgMaskWriteData[37:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_Accum_tb/sampleAccum/maskTblWriteRowAddr" type="array">
+         <obj_property name="ElementShortName">maskTblWriteRowAddr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">maskTblWriteRowAddr[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_Accum_tb/sampleAccum/maskTblOffsetWriteRowAddr" type="array">
+         <obj_property name="ElementShortName">maskTblOffsetWriteRowAddr[10:0]</obj_property>
+         <obj_property name="ObjectShortName">maskTblOffsetWriteRowAddr[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_Accum_tb/sampleAccum/bramWriteIndex_rowR" type="array">
+         <obj_property name="ElementShortName">bramWriteIndex_rowR[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bramWriteIndex_rowR[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_Accum_tb/sampleAccum/writeMaskTblR" type="array">
+         <obj_property name="ElementShortName">writeMaskTblR[1:0]</obj_property>
+         <obj_property name="ObjectShortName">writeMaskTblR[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_Accum_tb/sampleAccum/bramWriteIndex_column" type="logic">
+         <obj_property name="ElementShortName">bramWriteIndex_column</obj_property>
+         <obj_property name="ObjectShortName">bramWriteIndex_column</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_Accum_tb/sampleAccum/writeMaskTbl" type="logic">
+         <obj_property name="ElementShortName">writeMaskTbl</obj_property>
+         <obj_property name="ObjectShortName">writeMaskTbl</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_Accum_tb/sampleAccum/firstRowBinSizes" type="array">
+         <obj_property name="ElementShortName">firstRowBinSizes[1:0][11:0]</obj_property>
+         <obj_property name="ObjectShortName">firstRowBinSizes[1:0][11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_Accum_tb/sampleAccum/firstRowCoefficients" type="array">
+         <obj_property name="ElementShortName">firstRowCoefficients[1:0][25:0]</obj_property>
+         <obj_property name="ObjectShortName">firstRowCoefficients[1:0][25:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="group143" type="group">
+         <obj_property name="label">BRAM A</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/SI_Accum_tb/sampleAccum/\genblk2[0].maskTableBRAM /wea" type="array">
+            <obj_property name="ElementShortName">wea[0:0]</obj_property>
+            <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/SI_Accum_tb/sampleAccum/\genblk2[0].maskTableBRAM /addra" type="array">
+            <obj_property name="ElementShortName">addra[10:0]</obj_property>
+            <obj_property name="ObjectShortName">addra[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/SI_Accum_tb/sampleAccum/\genblk2[0].maskTableBRAM /dina" type="array">
+            <obj_property name="ElementShortName">dina[37:0]</obj_property>
+            <obj_property name="ObjectShortName">dina[37:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group147" type="group">
+         <obj_property name="label">BRAM B</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/SI_Accum_tb/sampleAccum/\genblk2[1].maskTableBRAM /wea" type="array">
+            <obj_property name="ElementShortName">wea[0:0]</obj_property>
+            <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/SI_Accum_tb/sampleAccum/\genblk2[1].maskTableBRAM /addra" type="array">
+            <obj_property name="ElementShortName">addra[10:0]</obj_property>
+            <obj_property name="ObjectShortName">addra[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/SI_Accum_tb/sampleAccum/\genblk2[1].maskTableBRAM /dina" type="array">
+            <obj_property name="ElementShortName">dina[37:0]</obj_property>
+            <obj_property name="ObjectShortName">dina[37:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/sampleAccum/accumCount" type="array">
+      <obj_property name="ElementShortName">accumCount[11:0]</obj_property>
+      <obj_property name="ObjectShortName">accumCount[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/sampleAccum/coefficient" type="array">
+      <obj_property name="ElementShortName">coefficient[25:0]</obj_property>
+      <obj_property name="ObjectShortName">coefficient[25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/sampleAccum/\gen_ch_accum[0].chSample " type="array">
+      <obj_property name="ElementShortName">\gen_ch_accum[0].chSample [15:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_ch_accum[0].chSample [15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/sampleAccum/\gen_ch_accum[0].chAccum " type="array">
+      <obj_property name="ElementShortName">\gen_ch_accum[0].chAccum [27:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_ch_accum[0].chAccum [27:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/sampleAccum/currentMaskReadPtr" type="array">
+      <obj_property name="ElementShortName">currentMaskReadPtr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">currentMaskReadPtr[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/sampleAccum/nextMaskReadPtr" type="array">
+      <obj_property name="ElementShortName">nextMaskReadPtr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">nextMaskReadPtr[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/sampleAccum/currentBinSize" type="array">
+      <obj_property name="ElementShortName">currentBinSize[11:0]</obj_property>
+      <obj_property name="ObjectShortName">currentBinSize[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/sampleAccum/currentCoefficient" type="array">
+      <obj_property name="ElementShortName">currentCoefficient[25:0]</obj_property>
+      <obj_property name="ObjectShortName">currentCoefficient[25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/sampleAccum/bramRowBinSizes" type="array">
+      <obj_property name="ElementShortName">bramRowBinSizes[1:1][11:0]</obj_property>
+      <obj_property name="ObjectShortName">bramRowBinSizes[1:1][11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/sampleAccum/bramRowCoefficients" type="array">
+      <obj_property name="ElementShortName">bramRowCoefficients[1:1][25:0]</obj_property>
+      <obj_property name="ObjectShortName">bramRowCoefficients[1:1][25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group158" type="group">
+      <obj_property name="label">BRAM A</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/SI_Accum_tb/sampleAccum/\genblk2[0].maskTableBRAM /addrb" type="array">
+         <obj_property name="ElementShortName">addrb[10:0]</obj_property>
+         <obj_property name="ObjectShortName">addrb[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_Accum_tb/sampleAccum/\genblk2[0].maskTableBRAM /doutb" type="array">
+         <obj_property name="ElementShortName">doutb[37:0]</obj_property>
+         <obj_property name="ObjectShortName">doutb[37:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group159" type="group">
+      <obj_property name="label">BRAM B</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/SI_Accum_tb/sampleAccum/\genblk2[1].maskTableBRAM /addrb" type="array">
+         <obj_property name="ElementShortName">addrb[10:0]</obj_property>
+         <obj_property name="ObjectShortName">addrb[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_Accum_tb/sampleAccum/\genblk2[1].maskTableBRAM /doutb" type="array">
+         <obj_property name="ElementShortName">doutb[37:0]</obj_property>
+         <obj_property name="ObjectShortName">doutb[37:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/accumsOutputEqual" type="logic">
+      <obj_property name="ElementShortName">accumsOutputEqual</obj_property>
+      <obj_property name="ObjectShortName">accumsOutputEqual</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/coefficientsOutputEqual" type="logic">
+      <obj_property name="ElementShortName">coefficientsOutputEqual</obj_property>
+      <obj_property name="ObjectShortName">coefficientsOutputEqual</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/newCoefficientOut" type="array">
+      <obj_property name="ElementShortName">newCoefficientOut[25:0]</obj_property>
+      <obj_property name="ObjectShortName">newCoefficientOut[25:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_Accum_tb/oldDivisorOut" type="array">
+      <obj_property name="ElementShortName">oldDivisorOut[11:0]</obj_property>
+      <obj_property name="ObjectShortName">oldDivisorOut[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

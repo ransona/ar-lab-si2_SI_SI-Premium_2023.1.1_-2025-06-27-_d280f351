@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SI_SignalConditionH_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SI_SignalConditionH_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2693000fs"></ZoomStartTime>
+      <ZoomEndTime time="3061401fs"></ZoomEndTime>
+      <Cursor1Time time="3000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="516"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/SI_SignalConditionH_tb/hsClk" type="logic">
+      <obj_property name="ElementShortName">hsClk</obj_property>
+      <obj_property name="ObjectShortName">hsClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_SignalConditionH_tb/hsSyncTrigger" type="array">
+      <obj_property name="ElementShortName">hsSyncTrigger[15:0]</obj_property>
+      <obj_property name="ObjectShortName">hsSyncTrigger[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/syncTriggerRE" type="array">
+      <obj_property name="ElementShortName">syncTriggerRE[15:0]</obj_property>
+      <obj_property name="ObjectShortName">syncTriggerRE[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples " type="array">
+      <obj_property name="ElementShortName">\gen_logical_chan[0].myPhysicalChanSamples [31:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_chan[0].myPhysicalChanSamples [31:0][11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [31]" type="array">
+         <obj_property name="ElementShortName">[31][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [30]" type="array">
+         <obj_property name="ElementShortName">[30][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [29]" type="array">
+         <obj_property name="ElementShortName">[29][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [28]" type="array">
+         <obj_property name="ElementShortName">[28][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [27]" type="array">
+         <obj_property name="ElementShortName">[27][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [26]" type="array">
+         <obj_property name="ElementShortName">[26][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [25]" type="array">
+         <obj_property name="ElementShortName">[25][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [24]" type="array">
+         <obj_property name="ElementShortName">[24][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [23]" type="array">
+         <obj_property name="ElementShortName">[23][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [22]" type="array">
+         <obj_property name="ElementShortName">[22][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [21]" type="array">
+         <obj_property name="ElementShortName">[21][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [20]" type="array">
+         <obj_property name="ElementShortName">[20][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [19]" type="array">
+         <obj_property name="ElementShortName">[19][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [18]" type="array">
+         <obj_property name="ElementShortName">[18][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [17]" type="array">
+         <obj_property name="ElementShortName">[17][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [16]" type="array">
+         <obj_property name="ElementShortName">[16][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [15]" type="array">
+         <obj_property name="ElementShortName">[15][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [14]" type="array">
+         <obj_property name="ElementShortName">[14][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [13]" type="array">
+         <obj_property name="ElementShortName">[13][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [12]" type="array">
+         <obj_property name="ElementShortName">[12][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [11]" type="array">
+         <obj_property name="ElementShortName">[11][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [10]" type="array">
+         <obj_property name="ElementShortName">[10][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [9]" type="array">
+         <obj_property name="ElementShortName">[9][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [8]" type="array">
+         <obj_property name="ElementShortName">[8][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [7]" type="array">
+         <obj_property name="ElementShortName">[7][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [6]" type="array">
+         <obj_property name="ElementShortName">[6][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [5]" type="array">
+         <obj_property name="ElementShortName">[5][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [4]" type="array">
+         <obj_property name="ElementShortName">[4][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [3]" type="array">
+         <obj_property name="ElementShortName">[3][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [2]" type="array">
+         <obj_property name="ElementShortName">[2][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [1]" type="array">
+         <obj_property name="ElementShortName">[1][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].myPhysicalChanSamples [0]" type="array">
+         <obj_property name="ElementShortName">[0][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR" type="array">
+      <obj_property name="ElementShortName">samplePhaseR[31:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">samplePhaseR[31:0][11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[31]" type="array">
+         <obj_property name="ElementShortName">[31][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[30]" type="array">
+         <obj_property name="ElementShortName">[30][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[29]" type="array">
+         <obj_property name="ElementShortName">[29][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[28]" type="array">
+         <obj_property name="ElementShortName">[28][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[27]" type="array">
+         <obj_property name="ElementShortName">[27][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[26]" type="array">
+         <obj_property name="ElementShortName">[26][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[25]" type="array">
+         <obj_property name="ElementShortName">[25][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[24]" type="array">
+         <obj_property name="ElementShortName">[24][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[23]" type="array">
+         <obj_property name="ElementShortName">[23][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[22]" type="array">
+         <obj_property name="ElementShortName">[22][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[21]" type="array">
+         <obj_property name="ElementShortName">[21][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[20]" type="array">
+         <obj_property name="ElementShortName">[20][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[19]" type="array">
+         <obj_property name="ElementShortName">[19][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[18]" type="array">
+         <obj_property name="ElementShortName">[18][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[17]" type="array">
+         <obj_property name="ElementShortName">[17][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[16]" type="array">
+         <obj_property name="ElementShortName">[16][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[15]" type="array">
+         <obj_property name="ElementShortName">[15][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[14]" type="array">
+         <obj_property name="ElementShortName">[14][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[13]" type="array">
+         <obj_property name="ElementShortName">[13][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[12]" type="array">
+         <obj_property name="ElementShortName">[12][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[11]" type="array">
+         <obj_property name="ElementShortName">[11][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[10]" type="array">
+         <obj_property name="ElementShortName">[10][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[9]" type="array">
+         <obj_property name="ElementShortName">[9][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[8]" type="array">
+         <obj_property name="ElementShortName">[8][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[7]" type="array">
+         <obj_property name="ElementShortName">[7][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[6]" type="array">
+         <obj_property name="ElementShortName">[6][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[5]" type="array">
+         <obj_property name="ElementShortName">[5][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[4]" type="array">
+         <obj_property name="ElementShortName">[4][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[3]" type="array">
+         <obj_property name="ElementShortName">[3][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[2]" type="array">
+         <obj_property name="ElementShortName">[2][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[1]" type="array">
+         <obj_property name="ElementShortName">[1][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/samplePhaseR[0]" type="array">
+         <obj_property name="ElementShortName">[0][11:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].startSampleIdx " type="array">
+      <obj_property name="ElementShortName">\gen_logical_chan[0].startSampleIdx [4:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_chan[0].startSampleIdx [4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].endSampleIdx " type="array">
+      <obj_property name="ElementShortName">\gen_logical_chan[0].endSampleIdx [4:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_chan[0].endSampleIdx [4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].foundStart " type="logic">
+      <obj_property name="ElementShortName">\gen_logical_chan[0].foundStart </obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_chan[0].foundStart </obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].foundEnd " type="logic">
+      <obj_property name="ElementShortName">\gen_logical_chan[0].foundEnd </obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_chan[0].foundEnd </obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[1].currentSum " type="array">
+      <obj_property name="ElementShortName">\gen_logical_chan[1].currentSum [15:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_chan[1].currentSum [15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[0].channelResult " type="array">
+      <obj_property name="ElementShortName">\gen_logical_chan[0].channelResult [15:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_chan[0].channelResult [15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/\gen_logical_chan[1].channelResult " type="array">
+      <obj_property name="ElementShortName">\gen_logical_chan[1].channelResult [15:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_logical_chan[1].channelResult [15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_SignalConditionH_tb/signalConditionH/dataOutValid" type="logic">
+      <obj_property name="ElementShortName">dataOutValid</obj_property>
+      <obj_property name="ObjectShortName">dataOutValid</obj_property>
+   </wvobject>
+</wave_config>

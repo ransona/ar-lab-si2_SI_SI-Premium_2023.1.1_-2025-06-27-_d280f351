@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="vDAQ_HSADC_fullsim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="vDAQ_HSADC_fullsim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="572166fs"></ZoomStartTime>
+      <ZoomEndTime time="1085567fs"></ZoomEndTime>
+      <Cursor1Time time="704766fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/coreClk" type="logic">
+      <obj_property name="ElementShortName">coreClk</obj_property>
+      <obj_property name="ObjectShortName">coreClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/dataClk" type="logic">
+      <obj_property name="ElementShortName">dataClk</obj_property>
+      <obj_property name="ObjectShortName">dataClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/sampleClkPhaseRefC" type="logic">
+      <obj_property name="ElementShortName">sampleClkPhaseRefC</obj_property>
+      <obj_property name="ObjectShortName">sampleClkPhaseRefC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/sampleClkPhaseRef" type="logic">
+      <obj_property name="ElementShortName">sampleClkPhaseRef</obj_property>
+      <obj_property name="ObjectShortName">sampleClkPhaseRef</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/sampleClkRst" type="logic">
+      <obj_property name="ElementShortName">sampleClkRst</obj_property>
+      <obj_property name="ObjectShortName">sampleClkRst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/sampleClkPllLocked" type="logic">
+      <obj_property name="ElementShortName">sampleClkPllLocked</obj_property>
+      <obj_property name="ObjectShortName">sampleClkPllLocked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/dataValid" type="logic">
+      <obj_property name="ElementShortName">dataValid</obj_property>
+      <obj_property name="ObjectShortName">dataValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/lclBufReadPhase" type="array">
+      <obj_property name="ElementShortName">lclBufReadPhase[2:0]</obj_property>
+      <obj_property name="ObjectShortName">lclBufReadPhase[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/lclBufReadPtr" type="array">
+      <obj_property name="ElementShortName">lclBufReadPtr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lclBufReadPtr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/sampleClkPhaseRef_rc" type="logic">
+      <obj_property name="ElementShortName">sampleClkPhaseRef_rc</obj_property>
+      <obj_property name="ObjectShortName">sampleClkPhaseRef_rc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/sampleClkPhaseRefRdP" type="logic">
+      <obj_property name="ElementShortName">sampleClkPhaseRefRdP</obj_property>
+      <obj_property name="ObjectShortName">sampleClkPhaseRefRdP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/sampleClkPhaseRdRE" type="logic">
+      <obj_property name="ElementShortName">sampleClkPhaseRdRE</obj_property>
+      <obj_property name="ObjectShortName">sampleClkPhaseRdRE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/sampleClkPhaseRef_wc" type="logic">
+      <obj_property name="ElementShortName">sampleClkPhaseRef_wc</obj_property>
+      <obj_property name="ObjectShortName">sampleClkPhaseRef_wc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/sampleClkPhaseRefWrP" type="logic">
+      <obj_property name="ElementShortName">sampleClkPhaseRefWrP</obj_property>
+      <obj_property name="ObjectShortName">sampleClkPhaseRefWrP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/sampleClkPhaseWrRE" type="logic">
+      <obj_property name="ElementShortName">sampleClkPhaseWrRE</obj_property>
+      <obj_property name="ObjectShortName">sampleClkPhaseWrRE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/lclBufWritePhase" type="array">
+      <obj_property name="ElementShortName">lclBufWritePhase[4:0]</obj_property>
+      <obj_property name="ObjectShortName">lclBufWritePhase[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/lclBufWritePtr" type="array">
+      <obj_property name="ElementShortName">lclBufWritePtr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">lclBufWritePtr[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/unread" type="array">
+      <obj_property name="ElementShortName">unread[8:0]</obj_property>
+      <obj_property name="ObjectShortName">unread[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vDAQ_HSADC_fullsim/dataA_parsed" type="array">
+      <obj_property name="ElementShortName">dataA_parsed[31:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">dataA_parsed[31:0][11:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SI_DataScope_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SI_DataScope_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="156640fs"></ZoomStartTime>
+      <ZoomEndTime time="210991fs"></ZoomEndTime>
+      <Cursor1Time time="168190fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="346"></NameColumnWidth>
+      <ValueColumnWidth column_width="238"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/SI_DataScope_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/numberOfSamples" type="array">
+      <obj_property name="ElementShortName">numberOfSamples[31:0]</obj_property>
+      <obj_property name="ObjectShortName">numberOfSamples[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/sampleDecimationLB2" type="array">
+      <obj_property name="ElementShortName">sampleDecimationLB2[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sampleDecimationLB2[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/trigger" type="array">
+      <obj_property name="ElementShortName">trigger[3:0]</obj_property>
+      <obj_property name="ObjectShortName">trigger[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/sampleDataA" type="array">
+      <obj_property name="ElementShortName">sampleDataA[31:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">sampleDataA[31:0][11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/sampleDataB" type="array">
+      <obj_property name="ElementShortName">sampleDataB[31:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">sampleDataB[31:0][11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/chanSel" type="logic">
+      <obj_property name="ElementShortName">chanSel</obj_property>
+      <obj_property name="ObjectShortName">chanSel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/firstSamplePhase" type="array">
+      <obj_property name="ElementShortName">firstSamplePhase[15:0]</obj_property>
+      <obj_property name="ObjectShortName">firstSamplePhase[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/siTriggerArray" type="array">
+      <obj_property name="ElementShortName">siTriggerArray[16:0]</obj_property>
+      <obj_property name="ObjectShortName">siTriggerArray[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/dataValidIn" type="logic">
+      <obj_property name="ElementShortName">dataValidIn</obj_property>
+      <obj_property name="ObjectShortName">dataValidIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/fifoWriteEn" type="logic">
+      <obj_property name="ElementShortName">fifoWriteEn</obj_property>
+      <obj_property name="ObjectShortName">fifoWriteEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/fifoWriteData" type="array">
+      <obj_property name="ElementShortName">fifoWriteData[423:0]</obj_property>
+      <obj_property name="ObjectShortName">fifoWriteData[423:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/sampleDataA_packed" type="array">
+      <obj_property name="ElementShortName">sampleDataA_packed[383:0]</obj_property>
+      <obj_property name="ObjectShortName">sampleDataA_packed[383:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/sampleDataB_packed" type="array">
+      <obj_property name="ElementShortName">sampleDataB_packed[383:0]</obj_property>
+      <obj_property name="ObjectShortName">sampleDataB_packed[383:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/sampleData_inFifo" type="array">
+      <obj_property name="ElementShortName">sampleData_inFifo[31:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">sampleData_inFifo[31:0][11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/sampleDataA_delayed" type="array">
+      <obj_property name="ElementShortName">sampleDataA_delayed[31:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">sampleDataA_delayed[31:0][11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/sampleDataB_delayed" type="array">
+      <obj_property name="ElementShortName">sampleDataB_delayed[31:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">sampleDataB_delayed[31:0][11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/sampleDataValid" type="array">
+      <obj_property name="ElementShortName">sampleDataValid[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sampleDataValid[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/triggerData_inFifo" type="array">
+      <obj_property name="ElementShortName">triggerData_inFifo[23:0]</obj_property>
+      <obj_property name="ObjectShortName">triggerData_inFifo[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/triggerData_delayed" type="array">
+      <obj_property name="ElementShortName">triggerData_delayed[16:0]</obj_property>
+      <obj_property name="ObjectShortName">triggerData_delayed[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/samplePhase_inFifo" type="array">
+      <obj_property name="ElementShortName">samplePhase_inFifo[15:0]</obj_property>
+      <obj_property name="ObjectShortName">samplePhase_inFifo[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/samplePhase_delayed" type="array">
+      <obj_property name="ElementShortName">samplePhase_delayed[15:0]</obj_property>
+      <obj_property name="ObjectShortName">samplePhase_delayed[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/allAnalogDataValid" type="logic">
+      <obj_property name="ElementShortName">allAnalogDataValid</obj_property>
+      <obj_property name="ObjectShortName">allAnalogDataValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/triggerDataValid" type="logic">
+      <obj_property name="ElementShortName">triggerDataValid</obj_property>
+      <obj_property name="ObjectShortName">triggerDataValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/samplePhaseValid" type="logic">
+      <obj_property name="ElementShortName">samplePhaseValid</obj_property>
+      <obj_property name="ObjectShortName">samplePhaseValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/allDataValid" type="logic">
+      <obj_property name="ElementShortName">allDataValid</obj_property>
+      <obj_property name="ObjectShortName">allDataValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/testState" type="array">
+      <obj_property name="ElementShortName">testState[3:0]</obj_property>
+      <obj_property name="ObjectShortName">testState[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/sampleIndex" type="array">
+      <obj_property name="ElementShortName">sampleIndex[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sampleIndex[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/triggerWaitCounter" type="array">
+      <obj_property name="ElementShortName">triggerWaitCounter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">triggerWaitCounter[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group559" type="group">
+      <obj_property name="label">Constants</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/SI_DataScope_tb/FIFO_WIDTH" type="array">
+         <obj_property name="ElementShortName">FIFO_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FIFO_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_DataScope_tb/NUM_TRIGGERS" type="array">
+         <obj_property name="ElementShortName">NUM_TRIGGERS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NUM_TRIGGERS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_DataScope_tb/PIPELINE_DELAY" type="array">
+         <obj_property name="ElementShortName">PIPELINE_DELAY[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PIPELINE_DELAY[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_DataScope_tb/STATE_RESET" type="array">
+         <obj_property name="ElementShortName">STATE_RESET[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STATE_RESET[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_DataScope_tb/STATE_UNRESET" type="array">
+         <obj_property name="ElementShortName">STATE_UNRESET[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STATE_UNRESET[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_DataScope_tb/STATE_START" type="array">
+         <obj_property name="ElementShortName">STATE_START[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STATE_START[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_DataScope_tb/STATE_UNSTART" type="array">
+         <obj_property name="ElementShortName">STATE_UNSTART[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STATE_UNSTART[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_DataScope_tb/STATE_WAIT_FOR_TRIGGER" type="array">
+         <obj_property name="ElementShortName">STATE_WAIT_FOR_TRIGGER[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STATE_WAIT_FOR_TRIGGER[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_DataScope_tb/STATE_TRIGGER" type="array">
+         <obj_property name="ElementShortName">STATE_TRIGGER[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STATE_TRIGGER[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_DataScope_tb/STATE_UNTRIGGER" type="array">
+         <obj_property name="ElementShortName">STATE_UNTRIGGER[31:0]</obj_property>
+         <obj_property name="ObjectShortName">STATE_UNTRIGGER[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_DataScope_tb/WAIT_FOR_TRIGGER_COUNT" type="array">
+         <obj_property name="ElementShortName">WAIT_FOR_TRIGGER_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WAIT_FOR_TRIGGER_COUNT[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/SI_DataScope_tb/datascope/siTriggerDataP" type="array">
+      <obj_property name="ElementShortName">siTriggerDataP[3:0][2:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">siTriggerDataP[3:0][2:0][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/SI_DataScope_tb/datascope/siTriggerDataP[3]" type="array">
+         <obj_property name="ElementShortName">[3][2:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][2:0][7:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_DataScope_tb/datascope/siTriggerDataP[2]" type="array">
+         <obj_property name="ElementShortName">[2][2:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][2:0][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_DataScope_tb/datascope/siTriggerDataP[1]" type="array">
+         <obj_property name="ElementShortName">[1][2:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][2:0][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SI_DataScope_tb/datascope/siTriggerDataP[0]" type="array">
+         <obj_property name="ElementShortName">[0][2:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][2:0][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
