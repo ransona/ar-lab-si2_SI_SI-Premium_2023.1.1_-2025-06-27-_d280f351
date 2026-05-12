@@ -243,39 +243,12 @@ classdef SlmAlignmentOverview < most.Gui
                 efficiency(efficiency<0.02) = 0.02; %Cap efficiency at 0.02 (50x the power at efficiency of 1)
 
 
-                % interpolant = griddedInterpolant(reshape(totalPts_SLM(:,1),pixelResolution,pixelResolution,numel(FILENAME)),...
-                %     reshape(totalPts_SLM(:,2),pixelResolution,pixelResolution,numel(FILENAME)),...
-                %     reshape(totalPts_SLM(:,3),pixelResolution,pixelResolution,numel(FILENAME)),...
-                %     efficiency,...
-                %     'nearest',...
-                %     'nearest');
-                
-                % 
-                X = reshape(totalPts_SLM(:,1),pixelResolution,pixelResolution,numel(FILENAME));
-                Y = reshape(totalPts_SLM(:,2),pixelResolution,pixelResolution,numel(FILENAME));
-                Z = reshape(totalPts_SLM(:,3),pixelResolution,pixelResolution,numel(FILENAME));
-
-                % X = totalPts_SLM(:,1)
-                % Y = reshape(totalPts_SLM(:,2), 32, 32, 7);
-                % Z = reshape(totalPts_SLM(:,3), 32, 32, 7);
-                
-                % V = reshape(efficiency, 32, 32, 7);
-
-                V = efficiency;
-                
-                x = squeeze(X(:,1,1));
-                y = squeeze(Y(1,:,1));
-                z = squeeze(Z(1,1,:));
-                
-                % Sort axes
-                [x, ix] = sort(x);
-                [y, iy] = sort(y);
-                [z, iz] = sort(z);
-                
-                % Reorder data to match sorted axes
-                V = V(ix, iy, iz);
-                
-                interpolant = griddedInterpolant({x, y, z}, V, 'nearest', 'nearest');
+                interpolant = griddedInterpolant(reshape(totalPts_SLM(:,1),pixelResolution,pixelResolution,numel(FILENAME)),...
+                    reshape(totalPts_SLM(:,2),pixelResolution,pixelResolution,numel(FILENAME)),...
+                    reshape(totalPts_SLM(:,3),pixelResolution,pixelResolution,numel(FILENAME)),...
+                    efficiency,...
+                    'nearest',...
+                    'nearest');
                
 
 
