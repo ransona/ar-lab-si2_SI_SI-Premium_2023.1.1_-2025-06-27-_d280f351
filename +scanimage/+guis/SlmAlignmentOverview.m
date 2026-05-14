@@ -49,7 +49,6 @@ classdef SlmAlignmentOverview < most.Gui
 
                         HorizontalFlow = most.gui.uiflowcontainer('Parent',flow,'FlowDirection','lefttoright');
                         obj.addUiControl('Parent',HorizontalFlow,'Tag','pbSlmDiffractionEfficiency1','String','SLM Diffraction efficiency','Callback',@(varargin)obj.showDiffractionEfficiencyTool(false));
-                        obj.addUiControl('Parent',HorizontalFlow,'Tag','pbSlmDiffractionEfficiencyScattered1','String','Scattered TIFF correction','Callback',@(varargin)obj.showScatteredDiffractionEfficiencyTool(false));
                         obj.addUiControl('Parent',HorizontalFlow,'Tag','pbResetSlmDiffractionEfficiency1','String','Reset','Callback',@obj.resetDiffractionEfficiencyCalibration,'WidthLimits',[50 50]);
 
                     hTab = uitab('Parent',hTabGroup,'Title','SLM (standalone)');
@@ -57,7 +56,6 @@ classdef SlmAlignmentOverview < most.Gui
 
                         HorizontalFlow = most.gui.uiflowcontainer('Parent',flow,'FlowDirection','lefttoright');
                         obj.addUiControl('Parent',HorizontalFlow,'Tag','pbSlmDiffractionEfficiency2','String','SLM Diffraction efficiency','Callback',@(varargin)obj.showDiffractionEfficiencyTool(true));
-                        obj.addUiControl('Parent',HorizontalFlow,'Tag','pbSlmDiffractionEfficiencyScattered2','String','Scattered TIFF correction','Callback',@(varargin)obj.showScatteredDiffractionEfficiencyTool(true));
                         obj.addUiControl('Parent',HorizontalFlow,'Tag','resetSlmOnlyDiffractionEfficiencyCalibration','String','Reset','Callback',@obj.resetDiffractionEfficiencyCalibration,'WidthLimits',[50 50]);
 
                         HorizontalFlow = most.gui.uiflowcontainer('Parent',flow,'FlowDirection','lefttoright');
@@ -125,7 +123,7 @@ classdef SlmAlignmentOverview < most.Gui
         
         function showDiffractionEfficiencyTool(obj,allowSavingZCalibration)
             msg = sprintf('Choose a diffraction efficiency calibration method.\n\n');
-            most.gui.nonBlockingDialog('SLM Diffraction Efficiency', msg, {{'Sub-stage camera' @useSubStageCameraSlmCalibration} {'Enter function' @set3DInterpolantByFunction} {'Use SLM acquired Images of Uniform Sample' @add3DInterpolantBySlmAcquiredImages}},'b',...
+            most.gui.nonBlockingDialog('SLM Diffraction Efficiency', msg, {{'Sub-stage camera' @useSubStageCameraSlmCalibration} {'Enter function' @set3DInterpolantByFunction} {'SLM uniform' @add3DInterpolantBySlmAcquiredImages} {'SLM scattered' @useScatteredTiffCalibration}},'b',...
                 'Position',[0 0 700 150],'Name','Diffraction Efficiency Calibration');
 
             function useSubStageCameraSlmCalibration
@@ -293,6 +291,10 @@ classdef SlmAlignmentOverview < most.Gui
                     set ( gca, 'YDir', 'reverse' );
                     set ( gca, 'ZDir', 'reverse' );
                 end
+            end
+
+            function useScatteredTiffCalibration()
+                obj.showScatteredDiffractionEfficiencyTool(allowSavingZCalibration);
             end
         end
 
