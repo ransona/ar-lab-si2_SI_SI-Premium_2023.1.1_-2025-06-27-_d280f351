@@ -244,11 +244,26 @@ function acquireSlmVolume(hSI)
             end
         catch
         end
-        liveFig = [];
-        liveTileLayout = [];
-        liveAxes = gobjects(0);
-        liveImages = gobjects(0);
-        liveTitles = gobjects(0);
+        try
+            liveFig = [];
+        catch
+        end
+        try
+            liveTileLayout = [];
+        catch
+        end
+        try
+            liveAxes = gobjects(0);
+        catch
+        end
+        try
+            liveImages = gobjects(0);
+        catch
+        end
+        try
+            liveTitles = gobjects(0);
+        catch
+        end
     end
 
     function setFramesPerAcqSafe(nFrames)

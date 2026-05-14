@@ -60,24 +60,26 @@ classdef SlmAlignmentOverviewScattered < scanimage.guis.SlmAlignmentOverview
             end
 
             function add3DInterpolantBySlmAcquiredImagesScattered()
-                [FILENAME, PATHNAME, ~] = uigetfile({'*.tif', '*.tiff'}, ...
-                    'Select SLM acquired TIFF files of a homogenously fluorescent sample from various SLM park positions.', ...
-                    'MultiSelect','on');
+                folder = uigetdir('F:\SLM', ...
+                    'Select folder containing SLM acquired TIFF files of a homogenously fluorescent sample.');
 
-                if isempty(FILENAME)
+                if isequal(folder,0)
                     return;
                 end
 
-                if ~iscell(FILENAME)
-                    FILENAME = {FILENAME};
-                end
+                tifs = dir(fullfile(folder,'*.tif'));
+                tiffs = dir(fullfile(folder,'*.tiff'));
+                fileStruct = [tifs; tiffs];
+                assert(~isempty(fileStruct),'No TIFF files were found in the selected folder.');
+                FILENAME = {fileStruct.name};
+                PATHNAME = folder;
 
                 opts = struct;
                 opts.WindowStyle = 'normal';
                 queries = { ...
                     'Median filter width in pixels (use 1 for no smoothing)', ...
                     'Median filter height in pixels (use 1 for no smoothing)'};
-                queryDefaultValues = {'3','3'};
+                queryDefaultValues = {'1','1'};
                 fieldWidth = [1 50];
                 answer = most.gui.inputdlgCentered(queries,'Scattered TIFF smoothing', ...
                     repmat(fieldWidth,numel(queries),1),queryDefaultValues,opts);
@@ -88,9 +90,12 @@ classdef SlmAlignmentOverviewScattered < scanimage.guis.SlmAlignmentOverview
                 validateattributes(medianFilterWindow,{'numeric'}, ...
                     {'vector','numel',2,'integer','positive','finite'});
 
+                disp('Scattered TIFF correction: loading TIFF files...');
                 ptsPerFile = cell(numel(FILENAME),1);
                 imagePerFile = cell(numel(FILENAME),1);
                 parkZs = nan(numel(FILENAME),1);
+                hWait = waitbar(0,'Loading TIFF files...');
+                waitbarCleanup = onCleanup(@()closeWaitbarSafely(hWait)); %#ok<NASGU>
                 for tifIdx = 1:numel(FILENAME)
                     [roiData, roiGroup, header, imageData] = scanimage.util.getMroiDataFromTiff(fullfile(PATHNAME,FILENAME{tifIdx}));
 
@@ -124,8 +129,11 @@ classdef SlmAlignmentOverviewScattered < scanimage.guis.SlmAlignmentOverview
                         imageData = medfilt2(imageData,medianFilterWindow,'symmetric');
                     end
                     imagePerFile{tifIdx} = imageData;
+                    updateWaitbarSafely(hWait, tifIdx / numel(FILENAME), ...
+                        sprintf('Loading TIFF files... %d%%', round(100 * tifIdx / numel(FILENAME))));
                 end
 
+                disp('Scattered TIFF correction: grouping TIFFs by SLM Z...');
                 [zKeys, sortOrder] = sort(round(parkZs(:),9));
                 sortedParkZs = parkZs(sortOrder);
                 sortedPts = ptsPerFile(sortOrder);
@@ -135,6 +143,7 @@ classdef SlmAlignmentOverviewScattered < scanimage.guis.SlmAlignmentOverview
                 uniqueZs = sortedParkZs(depthChange); %#ok<NASGU>
                 numDepths = numel(uniqueDepthKeys);
 
+                disp('Scattered TIFF correction: averaging frames within each depth...');
                 totalPts_SLM = [];
                 totalImageStack = zeros(pixelResolution,pixelResolution,numDepths);
                 for depthIdx = 1:numDepths
@@ -150,6 +159,7 @@ classdef SlmAlignmentOverviewScattered < scanimage.guis.SlmAlignmentOverview
                     totalPts_SLM = cat(1,totalPts_SLM,depthPts{1});
                 end
 
+                disp('Scattered TIFF correction: applying floor normalization and 2P conversion...');
                 floorPixelValue = prctile(totalImageStack(:),5);
                 maxPixelValue = max(totalImageStack,[],'all');
                 assert(maxPixelValue > floorPixelValue,'Image stack max must exceed the 5th percentile floor.');
@@ -160,11 +170,14 @@ classdef SlmAlignmentOverviewScattered < scanimage.guis.SlmAlignmentOverview
                 efficiency = sqrt(imageStack_emission_Norm);
                 efficiency(efficiency < 0.02) = 0.02;
 
+                disp('Scattered TIFF correction: building scattered interpolant...');
                 interpolant = scatteredInterpolant(totalPts_SLM(:,1),totalPts_SLM(:,2),totalPts_SLM(:,3),efficiency(:), ...
                     'natural','nearest');
 
+                disp('Scattered TIFF correction: updating ScanImage diffraction-efficiency LUT...');
                 obj.hSlmScan.hSlm.hCSDiffractionEfficiency.fromParentInterpolant{1} = interpolant;
                 obj.hSI.hCoordinateSystems.save();
+                disp('Scattered TIFF correction: done.');
 
                 debug = true;
                 if debug
@@ -187,4 +200,22 @@ classdef SlmAlignmentOverviewScattered < scanimage.guis.SlmAlignmentOverview
             end
         end
     end
+end
+
+function updateWaitbarSafely(hWait, frac, msg)
+try
+    if ~isempty(hWait) && isgraphics(hWait)
+        waitbar(frac, hWait, msg);
+    end
+catch
+end
+end
+
+function closeWaitbarSafely(hWait)
+try
+    if ~isempty(hWait) && isgraphics(hWait)
+        close(hWait);
+    end
+catch
+end
 end

@@ -2,6 +2,7 @@ classdef SlmAlignmentOverview < most.Gui
     properties
         hSlmScan
         hListeners = event.listener.empty();
+        hScatteredAlignmentOverview = [];
     end
     
     properties (Dependent)
@@ -17,6 +18,9 @@ classdef SlmAlignmentOverview < most.Gui
         
         function delete(obj)
             delete(obj.hListeners);
+            if ~isempty(obj.hScatteredAlignmentOverview)
+                most.idioms.safeDeleteObj(obj.hScatteredAlignmentOverview);
+            end
         end
     end
     
@@ -45,6 +49,7 @@ classdef SlmAlignmentOverview < most.Gui
 
                         HorizontalFlow = most.gui.uiflowcontainer('Parent',flow,'FlowDirection','lefttoright');
                         obj.addUiControl('Parent',HorizontalFlow,'Tag','pbSlmDiffractionEfficiency1','String','SLM Diffraction efficiency','Callback',@(varargin)obj.showDiffractionEfficiencyTool(false));
+                        obj.addUiControl('Parent',HorizontalFlow,'Tag','pbSlmDiffractionEfficiencyScattered1','String','Scattered TIFF correction','Callback',@(varargin)obj.showScatteredDiffractionEfficiencyTool(false));
                         obj.addUiControl('Parent',HorizontalFlow,'Tag','pbResetSlmDiffractionEfficiency1','String','Reset','Callback',@obj.resetDiffractionEfficiencyCalibration,'WidthLimits',[50 50]);
 
                     hTab = uitab('Parent',hTabGroup,'Title','SLM (standalone)');
@@ -52,6 +57,7 @@ classdef SlmAlignmentOverview < most.Gui
 
                         HorizontalFlow = most.gui.uiflowcontainer('Parent',flow,'FlowDirection','lefttoright');
                         obj.addUiControl('Parent',HorizontalFlow,'Tag','pbSlmDiffractionEfficiency2','String','SLM Diffraction efficiency','Callback',@(varargin)obj.showDiffractionEfficiencyTool(true));
+                        obj.addUiControl('Parent',HorizontalFlow,'Tag','pbSlmDiffractionEfficiencyScattered2','String','Scattered TIFF correction','Callback',@(varargin)obj.showScatteredDiffractionEfficiencyTool(true));
                         obj.addUiControl('Parent',HorizontalFlow,'Tag','resetSlmOnlyDiffractionEfficiencyCalibration','String','Reset','Callback',@obj.resetDiffractionEfficiencyCalibration,'WidthLimits',[50 50]);
 
                         HorizontalFlow = most.gui.uiflowcontainer('Parent',flow,'FlowDirection','lefttoright');
@@ -288,6 +294,24 @@ classdef SlmAlignmentOverview < most.Gui
                     set ( gca, 'ZDir', 'reverse' );
                 end
             end
+        end
+
+        function showScatteredDiffractionEfficiencyTool(obj,allowSavingZCalibration)
+            if isempty(obj.hScatteredAlignmentOverview) || ~isvalid(obj.hScatteredAlignmentOverview)
+                obj.hScatteredAlignmentOverview = scanimage.guis.SlmAlignmentOverviewScattered(obj.hSlmScan);
+            end
+
+            try
+                obj.hScatteredAlignmentOverview.show();
+            catch
+            end
+
+            try
+                most.gui.tetherGUIs(obj.hFig,obj.hScatteredAlignmentOverview.hFig,'righttop');
+            catch
+            end
+
+            obj.hScatteredAlignmentOverview.showDiffractionEfficiencyTool(allowSavingZCalibration);
         end
 
         function resetDiffractionEfficiencyCalibration(obj,varargin)
