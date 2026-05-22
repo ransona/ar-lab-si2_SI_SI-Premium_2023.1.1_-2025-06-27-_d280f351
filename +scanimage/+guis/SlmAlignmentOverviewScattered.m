@@ -165,6 +165,7 @@ classdef SlmAlignmentOverviewScattered < scanimage.guis.SlmAlignmentOverview
             disp('Scattered TIFF correction: averaging frames within each depth...');
             totalPts_SLM = [];
             depthRefPts = cell(numDepths,1);
+            depthSlmPts = cell(numDepths,1);
             totalImageStack = zeros(pixelResolution,pixelResolution,numDepths);
             for depthIdx = 1:numDepths
                 if depthIdx < numDepths
@@ -176,11 +177,13 @@ classdef SlmAlignmentOverviewScattered < scanimage.guis.SlmAlignmentOverview
                 depthImages = sortedImages(mask);
                 depthPts = sortedPts(mask);
                 depthRefPts{depthIdx} = sortedRefPts{find(mask,1,'first')};
+                depthSlmPts{depthIdx} = depthPts{1};
                 totalImageStack(:,:,depthIdx) = mean(cat(3,depthImages{:}),3);
                 totalPts_SLM = cat(1,totalPts_SLM,depthPts{1});
             end
 
             disp('Scattered TIFF correction: writing averaged-depth TIFF outputs...');
+            plotMeasuredDepthPlanes(totalImageStack, depthSlmPts, depthRefPts, sortedParkZs(depthChange), pixelResolution);
 
             disp('Scattered TIFF correction: applying floor normalization and 2P conversion...');
             floorPixelValue = prctile(totalImageStack(:),5);
@@ -249,6 +252,49 @@ try
     end
 catch
 end
+end
+
+function plotMeasuredDepthPlanes(imageStack, depthSlmPts, depthRefPts, depthZs, pixelResolution)
+plotMeasuredDepthPlanesInFrame(104, imageStack, depthSlmPts, depthZs, pixelResolution, ...
+    'Averaged Depth Planes in SLM Objective Coordinates', 'x (SLM obj um)', 'y (SLM obj um)');
+plotMeasuredDepthPlanesInFrame(103, imageStack, depthRefPts, depthZs, pixelResolution, ...
+    'Averaged Depth Planes in Reference Coordinates', 'x (reference lateral deg)', 'y (reference lateral deg)');
+end
+
+function plotMeasuredDepthPlanesInFrame(figNum, imageStack, depthPts, depthZs, pixelResolution, figTitle, xLabelText, yLabelText)
+numDepths = size(imageStack,3);
+nCols = ceil(sqrt(numDepths));
+nRows = ceil(numDepths / nCols);
+clims = [min(imageStack,[],'all') max(imageStack,[],'all')];
+if ~all(isfinite(clims)) || clims(1) == clims(2)
+    clims = [0 1];
+end
+
+hFig = figure(figNum);
+clf(hFig);
+t = tiledlayout(hFig, nRows, nCols, 'TileSpacing', 'compact', 'Padding', 'compact');
+title(t, figTitle);
+colormap(hFig, 'turbo');
+
+for depthIdx = 1:numDepths
+    nexttile(t);
+    pts = depthPts{depthIdx};
+    X = reshape(pts(:,1), pixelResolution, pixelResolution);
+    Y = reshape(pts(:,2), pixelResolution, pixelResolution);
+    C = imageStack(:,:,depthIdx);
+
+    surface(X, Y, zeros(size(C)), C, 'EdgeColor', 'none', 'FaceColor', 'texturemap');
+    view(2);
+    axis image;
+    set(gca,'YDir','reverse');
+    clim(clims);
+    xlabel(xLabelText);
+    ylabel(yLabelText);
+    title(sprintf('z = %.1f um', depthZs(depthIdx)));
+end
+
+cb = colorbar;
+cb.Label.String = 'Averaged pixel value';
 end
 
 function alignedStack = alignStackToReferenceGrid(imageStack, depthRefPts, pixelResolution)
